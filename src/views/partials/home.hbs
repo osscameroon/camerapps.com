@@ -10,19 +10,25 @@
 
 	<div class="col-md-2">
       <select class="form-select" id="category" name="category" aria-label="Default select category">
-        <option selected>Category</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        {{#each categories.list}}
+          {{#if (ifEquals this @root.categories.selected) }}
+            <option value="{{ this }}" selected>{{this}}</option>
+          {{else}}
+            <option value="{{ this }}">{{this}}</option>
+          {{/if}}
+        {{/each}}
       </select>
     </div>
 
 	<div class="col-md-2">
       <select class="form-select form-control" id="tag" name="tag" aria-label="Default select tag">
-        <option selected>Tag</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        {{#each tags.list}}
+          {{#if (ifEquals this @root.tags.selected) }}
+            <option value="{{ this }}" selected>{{this}}</option>
+          {{else}}
+            <option value="{{ this }}">{{this}}</option>
+          {{/if}}
+        {{/each}}
       </select>
     </div>
 </form>
