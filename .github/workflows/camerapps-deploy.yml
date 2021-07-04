@@ -1,0 +1,23 @@
+name: camerapps.com deploys
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '15'
+
+      - name: Executing remote  command
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
+          key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
+          script: cd /home/deploy/camerapps.com && git stash; git pull --rebase origin main; git stash apply; yarn install && yarn build && pm2 restart 0 && pm2 save

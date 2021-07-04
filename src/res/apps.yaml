@@ -1,0 +1,144 @@
+items:
+  - title: Oss Cameroon
+    category: community
+    #max of five tags
+    tags:
+      - opensource
+      - programming
+      - developers
+    description: |
+      Oss Cameroon is an open source community by cameroonians developers.
+    website: https://osscameroon.com
+    #twitter group handle
+    twitter: https://twitter.com/osscameroon
+    #dikalo group handle or link
+    dikalo:
+    #telegram group link
+    telegram: https://t.me/joinchat/UpKZh_KXTaTx7JD7
+    #facebook link
+    facebook:
+    #whatsapp link
+    whatsapp:
+    #android app store
+    playstore:
+    #ios app store
+    appstore:
+    #slack application
+    slack:
+    #github_account full url
+    github_account: https://github.com/osscameroon
+    otherlinks:
+      - https://opencollective.com/osscameroon
+      - https://blog.osscameroon.com
+      - https://miniyotas.osscameroon.com
+    image: default.svg
+#--------------------------------------------------------------
+  - title: Python Cameroun
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+     The cameroon based python community organization.
+    website: https://pythoncm.org
+    #twitter group handle
+    twitter: https://twitter.com/PythonCameroun
+    github_account: https://github.com/python-cameroun
+    telegram: https://t.me/python_cameroon
+    image: python_cameroun.jpeg
+#--------------------------------------------------------------
+  - title: Laravel Cameroun
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+      - php
+    description: |
+      Communauté des développeurs PHP et Laravel du Cameroun, le plus gros rassemblement de développeurs au Cameroun.
+    website: https://laravel.cm
+    #twitter group handle
+    twitter: https://twitter.com/laravelcm
+    github_account: https://github.com/laravelcm
+    facebook: https://www.facebook.com/laravelcm
+    telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
+    slack: https://laravel.cm/join-slack
+    image: laravel_cm.jpeg
+#--------------------------------------------------------------
+  - title: Mbuntu
+    category: application
+    #max of five tags
+    tags:
+      - social
+    description: |
+      Mbuntu is more than messaging. With a variety of features, you have endless options when it comes to expressing yourself. From unlimited group size, through beautiful stickers to high quality calls Mbuntu offers everything you need from a modern messaging app while keeping you safe and secure.
+    website: https://about.dklo.co/mbuntu
+    #twitter group handle
+    twitter: https://twitter.com/MbuntuOfficial
+    playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
+    appstore: https://about.dklo.co/mbuntu-beta-ios-en
+    image: mbuntu.jpeg
+#--------------------------------------------------------------
+  - title: "Aurion : Kajuta Gems Fighter"
+    category: video game
+    #max of five tags
+    tags:
+      - social
+      - jeux videos
+    description: |
+      Help the King and Queen of Zama stop the corruption of Kajuta that threatens the world of Aurion. An adventure with a match3 combat system, easy to handle and super fun!
+    website: https://www.aurionuniverse.com/mobile/aurionkgf
+    playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
+    image: aurionkgf.png
+#--------------------------------------------------------------
+  - title: "Le Responsable Mboa"
+    category: video game
+    #max of five tags
+    tags:
+      - social
+      - jeux videos
+    description: |
+     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+    website: https://www.leresponsable-mboa.com
+    #twitter group handle
+    twitter: https://twitter.com/ResponsableMboa
+    playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
+    image: le_responsable_mboa.jpeg
+#--------------------------------------------------------------
+  - title: "Afrotiles"
+    category: video game
+    #max of five tags
+    tags:
+      - jeux videos
+    description: |
+      Have you ever wondered how is it like to be a musician and compose modern day beats ? Listen to the groovey beats while mastering the tile patterns and become a pro.
+    website: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
+    #twitter group handle
+    twitter: https://twitter.com/afrotiles
+    playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
+    image: afrotiles.jpeg
+#--------------------------------------------------------------
+  - title: "Voyageurs"
+    category: video game
+    #max of five tags
+    tags:
+      - jeux videos
+    description: |
+      Join this "runner defense" adventure and help the voyageurs reach their destination.
+    website: http://voyageurs.elhmn.com
+    #twitter group handle
+    image: voyageurs.png
+#--------------------------------------------------------------
+  - title: Flutter Cameroon
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      Flutter Cameroon is a community of Dart and Flutter developers from Cameroon.
+    #twitter group handle
+    twitter: https://twitter.com/fluttercm
+    image: flutter_cm.jpeg
+#--------------------------------------------------------------
