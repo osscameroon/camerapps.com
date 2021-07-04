@@ -9,7 +9,7 @@ enum E_ENVIRONMENT {
   prod = "production",
 }
 
-const port: number = 3000;
+const port: number = 3001;
 const app = express();
 
 const getCurrentYear = () => {
