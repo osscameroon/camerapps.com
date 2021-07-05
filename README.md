@@ -14,6 +14,8 @@ You might need to install `yarn` and a `node` version >= 15
 
 To add a new application you might need to raise a pull request, or/and support us financially [here](https://opencollective.com/osscameroon) 😉
 
+In case you have never created a pull request before we made this [tutorial](https://www.youtube.com/watch?v=F1SG2Zfzn-U&list=PLYfuyzVpgjOSqTcwvb7WGMZrLrEqZl2rB) for you.
+
 Follow this steps in your pull requests:
 - Open the `/src/res/apps.yaml` with your favourite code editor
 - Copy the osscameroon field and paste it at the bottom of the file as such:
