@@ -157,3 +157,16 @@ items:
     github_account: https://github.com/blurdylan/lamap-bot
     image: lamap_bot.png
 #--------------------------------------------------------------
+  - title: Qui-go
+    category: application
+    #max of five tags
+    tags:
+      - voyage
+      - logistique
+    description: |
+      Avec Qui-Go expedier ses colis n’a jamais ete aussi facile.
+    website: https://www.qui-go.com
+    #twitter group handle
+    twitter: https://twitter.com/Qui_Go
+    image: quigo.png
+#--------------------------------------------------------------
