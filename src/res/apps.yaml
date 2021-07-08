@@ -142,3 +142,18 @@ items:
     twitter: https://twitter.com/fluttercm
     image: flutter_cm.jpeg
 #--------------------------------------------------------------
+  - title: LaMap Game
+    category: video game
+    #max of five tags
+    tags:
+      - social
+      - jeux videos
+    description: |
+      A Telegram bot built to help play La Map card game in Telegram groups.
+    website: https://t.me/lamapdevs
+    #telegram group link
+    telegram: https://t.me/lamapdevs
+    #github_account full url
+    github_account: https://github.com/blurdylan/lamap-bot
+    image: lamap_bot.png
+#--------------------------------------------------------------
