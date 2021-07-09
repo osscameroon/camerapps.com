@@ -36,11 +36,11 @@ export interface Apps {
 
 const formatItems = (apps :Apps): Item[] | undefined => {
   let items = apps?.items?.map((i: Item): Item => ({
-      ...i,
-      image: "/res/imgs/"+ i.image,
-      github_handle: extractHandleFromGitHubUrl(i.github_account ?? ""),
-    }));
-    return items
+    ...i,
+    image: i.image && (i.image.indexOf("http://") === 0 || i.image.indexOf("https://") === 0) ? i.image : "/res/imgs/" + i.image,
+    github_handle: extractHandleFromGitHubUrl(i.github_account ?? ""),
+  }));
+  return items
 }
 
 export const getApps = (): Apps => {
