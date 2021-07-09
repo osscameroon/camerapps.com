@@ -170,3 +170,27 @@ items:
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
 #--------------------------------------------------------------
+  - title: MyStore Africa
+    category: application
+    #max of five tags
+    tags:
+      - e-commerce
+      - saas platform
+    description: |
+      Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
+    website: https://www.mystore.africa
+    twitter: https://twitter.com/MyStoreAfrica
+    telegram: https://t.me/mystoreafrica_bot
+    image: https://mystore.africa/assets/img/logo-two.png
+#--------------------------------------------------------------
+  - title: Hostme
+    category: application
+    #max of five tags
+    tags:
+      - hosting
+    description: |
+      Mettez vos sites web en ligne facilement avec Hostme.space. 
+    website: https://www.hostme.space
+    telegram: https://t.me/hostme_space
+    image: https://hostme.space/front_asset/img/logo/logo.png
+#--------------------------------------------------------------
