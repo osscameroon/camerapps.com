@@ -32,7 +32,7 @@ items:
       - https://blog.osscameroon.com
       - https://miniyotas.osscameroon.com
     image: default.svg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Python Cameroun
     category: community
     #max of five tags
@@ -40,14 +40,14 @@ items:
       - programming
       - developers
     description: |
-     The cameroon based python community organization.
+      The cameroon based python community organization.
     website: https://pythoncm.org
     #twitter group handle
     twitter: https://twitter.com/PythonCameroun
     github_account: https://github.com/python-cameroun
     telegram: https://t.me/python_cameroon
     image: python_cameroun.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Laravel Cameroun
     category: community
     #max of five tags
@@ -65,7 +65,7 @@ items:
     telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
     slack: https://laravel.cm/join-slack
     image: laravel_cm.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Mbuntu
     category: application
     #max of five tags
@@ -79,7 +79,7 @@ items:
     playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
     appstore: https://about.dklo.co/mbuntu-beta-ios-en
     image: mbuntu.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Aurion : Kajuta Gems Fighter"
     category: video game
     #max of five tags
@@ -91,7 +91,7 @@ items:
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Le Responsable Mboa"
     category: video game
     #max of five tags
@@ -99,13 +99,13 @@ items:
       - social
       - jeux videos
     description: |
-     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+      Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
     website: https://www.leresponsable-mboa.com
     #twitter group handle
     twitter: https://twitter.com/ResponsableMboa
     playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
     image: le_responsable_mboa.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Afrotiles"
     category: video game
     #max of five tags
@@ -118,7 +118,7 @@ items:
     twitter: https://twitter.com/afrotiles
     playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     image: afrotiles.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Voyageurs"
     category: video game
     #max of five tags
@@ -129,7 +129,7 @@ items:
     website: http://voyageurs.elhmn.com
     #twitter group handle
     image: voyageurs.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Flutter Cameroon
     category: community
     #max of five tags
@@ -141,7 +141,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/fluttercm
     image: flutter_cm.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: LaMap Game
     category: video game
     #max of five tags
@@ -156,7 +156,7 @@ items:
     #github_account full url
     github_account: https://github.com/blurdylan/lamap-bot
     image: lamap_bot.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Qui-go
     category: application
     #max of five tags
@@ -169,7 +169,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: MyStore Africa
     category: application
     #max of five tags
@@ -182,17 +182,35 @@ items:
     twitter: https://twitter.com/MyStoreAfrica
     telegram: https://t.me/mystoreafrica_bot
     image: https://mystore.africa/assets/img/logo-two.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Hostme
     category: application
     #max of five tags
     tags:
       - hosting
     description: |
-      Mettez vos sites web en ligne facilement avec Hostme.space. 
+      Mettez vos sites web en ligne facilement avec Hostme.space.
     website: https://www.hostme.space
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
+  #--------------------------------------------------------------
+  - title: My-CoolPay
+    category: application
+    #max of five tags
+    tags:
+      - api
+      - programming
+      - developers
+    description: |
+      My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
+    website: https://my-coolpay.com/fr/
+    #twitter group handle
+    twitter: https://twitter.com/MyCoolPay
+    #dikalo group handle or link
+    dikalo:
+    #facebook link
+    facebook: https://www.facebook.com/mycoolpay
+    image: logo_mycoolplay.png
 #--------------------------------------------------------------
   - title: "MendoLearn"
     category: application
