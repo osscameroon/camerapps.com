@@ -277,3 +277,39 @@ items:
     image: tour_cmr.png
 
 #--------------------------------------------------------------
+  - title: Facebook Developer Circle Buea
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      A group of tech guys, ICT , business men and people seeking to grow their platforms using Facebook products from the buea community. The Develop…
+    #facebook link
+    facebook: https://www.facebook.com/groups/DevCBuea/
+    image: default.svg
+#--------------------------------------------------------------
+    - title: Facebook Developer Circle Yaoundé
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      le Developer Circle Yaounde vous permettent d’interagir avec d’autres développeurs locaux afin que vous puissiez collaborer, apprendre et progra…
+    #facebook link
+    facebook: https://www.facebook.com/groups/1216588391854380/
+    image: default.svg
+#--------------------------------------------------------------
+    - title: Facebook Developer Circle Douala
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      Un groupe d'informaticiens, de spécialistes des TIC, d’hommes d’affaires et de personnes cherchant à développer leurs plates-formes à l’aide de…
+    #facebook link
+    facebook: https://www.facebook.com/groups/devcdouala/
+    image: default.svg
+#--------------------------------------------------------------
