@@ -194,7 +194,7 @@ items:
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
 #--------------------------------------------------------------
-title: MendoLearn
+  - title: "MendoLearn"
     category: application
     #max of five tags
     tags:
@@ -212,7 +212,7 @@ title: MendoLearn
     image: mendo_learn.png
 
     #--------------------------------------------------------------
-title: Colorfol
+  - title: Colorfol
     category: application
     #max of five tags
     tags:
@@ -227,10 +227,10 @@ title: Colorfol
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.dev.mobile.colortech
     
-    image: colorfol.png
+    image: colorfol.jpg
 
        #--------------------------------------------------------------
-title: Dastudy
+  - title: Dastudy
     category: platform
     #max of five tags
     tags:
@@ -240,4 +240,4 @@ title: Dastudy
     twitter: https://twitter.com/dastudy19?s=20
     website: https://www.dastudy.net/
     
-    image: dastudy.png
+    image: dastudy.jpg
