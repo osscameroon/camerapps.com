@@ -243,3 +243,19 @@ items:
     image: dastudy.jpg
 
 #--------------------------------------------------------------
+
+  - title: TourCMR
+    category: application
+    #max of five tags
+    tags:
+      - Tourism
+    description: |
+        TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature. 
+    twitter: https://twitter.com/TourCmrApp
+    website: https://tourcmr.com/
+    facebook: https://web.facebook.com/TourCmrApp
+    playstore: https://play.google.com/store/apps/details?id=com.sirpangsui.tourcmr
+    
+    image: tour_cmr.png
+
+#--------------------------------------------------------------
