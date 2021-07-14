@@ -1,12 +1,15 @@
 # camerapps.com
+
 Application that lists applications, whatsapp, telegram groups useful for Cameroonians
 
 website: [camerapps](https://camerapps.com)
 
 ## Dependency
+
 You might need to install `yarn` and a `node` version >= 15
 
 ## How to run locally ?
+
 - Run `yarn install`
 - Run `yarn dev`
 
@@ -17,8 +20,10 @@ To add a new application you might need to raise a pull request, or/and support 
 In case you have never created a pull request before we made this [tutorial](https://www.youtube.com/watch?v=F1SG2Zfzn-U&list=PLYfuyzVpgjOSqTcwvb7WGMZrLrEqZl2rB) for you.
 
 Follow this steps in your pull requests:
+
 - Open the `/src/res/apps.yaml` with your favourite code editor
 - Copy the osscameroon field and paste it at the bottom of the file as such:
+
 ```yaml
 #[... Fields that where there before] 
 #--------------------------------------------------------------------
@@ -57,6 +62,7 @@ Follow this steps in your pull requests:
     image: default.svg
 #--------------------------------------------------------------
 ```
+
 - Now edit and remove the fields that do not apply to your application, use other applications as reference.
 - To add an image copy your application image in this folder `src/res/imgs` name it using `snace_case` like `new_image.jpeg`
 - Set the name of the newly added image file in the image field of your `src/res/apps.yaml` file

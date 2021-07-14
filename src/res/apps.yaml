@@ -194,3 +194,50 @@ items:
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
 #--------------------------------------------------------------
+title: MendoLearn
+    category: application
+    #max of five tags
+    tags:
+      - education
+    description: |
+      MendoLearn is an educational social network or an inclusive educational community
+    website: https://www.mendolearn.com/
+    #twitter group handle
+    twitter: https://twitter.com/mendolearn_cam
+    #facebook link
+    facebook: https://web.facebook.com/mendolearn
+    #android app store
+    playstore: https://play.google.com/store/apps/details?id=com.mendolearn&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+    
+    image: mendo_learn.png
+
+    #--------------------------------------------------------------
+title: Colorfol
+    category: application
+    #max of five tags
+    tags:
+      - music
+      - videos
+    description: |
+      Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
+    
+    twitter: https://twitter.com/ColorfolApp?s=20
+    #facebook link
+    facebook: https://web.facebook.com/ColorfolApp
+    #android app store
+    playstore: https://play.google.com/store/apps/details?id=com.dev.mobile.colortech
+    
+    image: colorfol.png
+
+       #--------------------------------------------------------------
+title: Dastudy
+    category: platform
+    #max of five tags
+    tags:
+      - education
+    description: |
+        Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
+    twitter: https://twitter.com/dastudy19?s=20
+    website: https://www.dastudy.net/
+    
+    image: dastudy.png
