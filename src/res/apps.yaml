@@ -211,7 +211,7 @@ items:
     
     image: mendo_learn.png
 
-    #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Colorfol
     category: application
     #max of five tags
@@ -229,7 +229,7 @@ items:
     
     image: colorfol.jpg
 
-       #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Dastudy
     category: platform
     #max of five tags
@@ -241,3 +241,5 @@ items:
     website: https://www.dastudy.net/
     
     image: dastudy.jpg
+
+#--------------------------------------------------------------
