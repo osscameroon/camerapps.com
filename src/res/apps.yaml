@@ -40,7 +40,7 @@ items:
       - programming
       - developers
     description: |
-     The cameroon based python community organization.
+      The cameroon based python community organization.
     website: https://pythoncm.org
     #twitter group handle
     twitter: https://twitter.com/PythonCameroun
@@ -129,7 +129,7 @@ items:
     website: http://voyageurs.elhmn.com
     #twitter group handle
     image: voyageurs.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Flutter Cameroon
     category: community
     #max of five tags
@@ -141,7 +141,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/fluttercm
     image: flutter_cm.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: LaMap Game
     category: video game
     #max of five tags
@@ -156,7 +156,7 @@ items:
     #github_account full url
     github_account: https://github.com/blurdylan/lamap-bot
     image: lamap_bot.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Qui-go
     category: application
     #max of five tags
@@ -169,7 +169,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: MyStore Africa
     category: application
     #max of five tags
@@ -182,17 +182,35 @@ items:
     twitter: https://twitter.com/MyStoreAfrica
     telegram: https://t.me/mystoreafrica_bot
     image: https://mystore.africa/assets/img/logo-two.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Hostme
     category: application
     #max of five tags
     tags:
       - hosting
     description: |
-      Mettez vos sites web en ligne facilement avec Hostme.space. 
+      Mettez vos sites web en ligne facilement avec Hostme.space.
     website: https://www.hostme.space
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
+  #--------------------------------------------------------------
+  - title: My-CoolPay
+    category: application
+    #max of five tags
+    tags:
+      - api
+      - programming
+      - developers
+    description: |
+      My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
+    website: https://my-coolpay.com/fr/
+    #twitter group handle
+    twitter: https://twitter.com/MyCoolPay
+    #dikalo group handle or link
+    dikalo:
+    #facebook link
+    facebook: https://www.facebook.com/mycoolpay
+    image: logo_mycoolplay.png
 #--------------------------------------------------------------
   - title: "MendoLearn"
     category: application
@@ -258,4 +276,40 @@ items:
     
     image: tour_cmr.png
 
+#--------------------------------------------------------------
+  - title: Facebook Developer Circle Buea
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      A group of tech guys, ICT , business men and people seeking to grow their platforms using Facebook products from the buea community. The Develop…
+    #facebook link
+    facebook: https://www.facebook.com/groups/DevCBuea/
+    image: default.svg
+#--------------------------------------------------------------
+  - title: Facebook Developer Circle Yaoundé
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      le Developer Circle Yaounde vous permettent d’interagir avec d’autres développeurs locaux afin que vous puissiez collaborer, apprendre et progra…
+    #facebook link
+    facebook: https://www.facebook.com/groups/1216588391854380/
+    image: default.svg
+#--------------------------------------------------------------
+  - title: Facebook Developer Circle Douala
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - developers
+    description: |
+      Un groupe d'informaticiens, de spécialistes des TIC, d’hommes d’affaires et de personnes cherchant à développer leurs plates-formes à l’aide de…
+    #facebook link
+    facebook: https://www.facebook.com/groups/devcdouala/
+    image: default.svg
 #--------------------------------------------------------------
