@@ -32,7 +32,7 @@ items:
       - https://blog.osscameroon.com
       - https://miniyotas.osscameroon.com
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Python Cameroun
     category: community
     #max of five tags
@@ -47,7 +47,7 @@ items:
     github_account: https://github.com/python-cameroun
     telegram: https://t.me/python_cameroon
     image: python_cameroun.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Laravel Cameroun
     category: community
     #max of five tags
@@ -65,7 +65,7 @@ items:
     telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
     slack: https://laravel.cm/join-slack
     image: laravel_cm.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Mbuntu
     category: application
     #max of five tags
@@ -79,7 +79,7 @@ items:
     playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
     appstore: https://about.dklo.co/mbuntu-beta-ios-en
     image: mbuntu.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Aurion : Kajuta Gems Fighter"
     category: video game
     #max of five tags
@@ -91,7 +91,7 @@ items:
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Le Responsable Mboa"
     category: video game
     #max of five tags
@@ -99,13 +99,13 @@ items:
       - social
       - jeux videos
     description: |
-      Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
     website: https://www.leresponsable-mboa.com
     #twitter group handle
     twitter: https://twitter.com/ResponsableMboa
     playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
     image: le_responsable_mboa.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Afrotiles"
     category: video game
     #max of five tags
@@ -118,7 +118,7 @@ items:
     twitter: https://twitter.com/afrotiles
     playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     image: afrotiles.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Voyageurs"
     category: video game
     #max of five tags
@@ -289,7 +289,7 @@ items:
     facebook: https://www.facebook.com/groups/DevCBuea/
     image: default.svg
 #--------------------------------------------------------------
-    - title: Facebook Developer Circle Yaoundé
+  - title: Facebook Developer Circle Yaoundé
     category: community
     #max of five tags
     tags:
@@ -301,7 +301,7 @@ items:
     facebook: https://www.facebook.com/groups/1216588391854380/
     image: default.svg
 #--------------------------------------------------------------
-    - title: Facebook Developer Circle Douala
+  - title: Facebook Developer Circle Douala
     category: community
     #max of five tags
     tags:
