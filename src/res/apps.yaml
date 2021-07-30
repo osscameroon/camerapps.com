@@ -32,7 +32,7 @@ items:
       - https://blog.osscameroon.com
       - https://miniyotas.osscameroon.com
     image: default.svg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Python Cameroun
     category: community
     #max of five tags
@@ -47,7 +47,7 @@ items:
     github_account: https://github.com/python-cameroun
     telegram: https://t.me/python_cameroon
     image: python_cameroun.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Laravel Cameroun
     category: community
     #max of five tags
@@ -65,7 +65,7 @@ items:
     telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
     slack: https://laravel.cm/join-slack
     image: laravel_cm.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Mbuntu
     category: application
     #max of five tags
@@ -79,7 +79,7 @@ items:
     playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
     appstore: https://about.dklo.co/mbuntu-beta-ios-en
     image: mbuntu.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Aurion : Kajuta Gems Fighter"
     category: video game
     #max of five tags
@@ -91,7 +91,7 @@ items:
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Le Responsable Mboa"
     category: video game
     #max of five tags
@@ -99,13 +99,13 @@ items:
       - social
       - jeux videos
     description: |
-     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+      Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
     website: https://www.leresponsable-mboa.com
     #twitter group handle
     twitter: https://twitter.com/ResponsableMboa
     playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
     image: le_responsable_mboa.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Afrotiles"
     category: video game
     #max of five tags
@@ -118,7 +118,7 @@ items:
     twitter: https://twitter.com/afrotiles
     playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     image: afrotiles.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "Voyageurs"
     category: video game
     #max of five tags
@@ -211,7 +211,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/mycoolpay
     image: logo_mycoolplay.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: "MendoLearn"
     category: application
     #max of five tags
@@ -226,10 +226,10 @@ items:
     facebook: https://web.facebook.com/mendolearn
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.mendolearn&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-    
+
     image: mendo_learn.png
 
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Colorfol
     category: application
     #max of five tags
@@ -238,29 +238,29 @@ items:
       - videos
     description: |
       Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
-    
+
     twitter: https://twitter.com/ColorfolApp?s=20
     #facebook link
     facebook: https://web.facebook.com/ColorfolApp
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.dev.mobile.colortech
-    
+
     image: colorfol.jpg
 
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Dastudy
     category: platform
     #max of five tags
     tags:
       - education
     description: |
-        Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
+      Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
     twitter: https://twitter.com/dastudy19?s=20
     website: https://www.dastudy.net/
-    
+
     image: dastudy.jpg
 
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
 
   - title: TourCMR
     category: application
@@ -268,15 +268,15 @@ items:
     tags:
       - Tourism
     description: |
-        TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature. 
+      TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature.
     twitter: https://twitter.com/TourCmrApp
     website: https://tourcmr.com/
     facebook: https://web.facebook.com/TourCmrApp
     playstore: https://play.google.com/store/apps/details?id=com.sirpangsui.tourcmr
-    
+
     image: tour_cmr.png
 
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Facebook Developer Circle Buea
     category: community
     #max of five tags
@@ -288,7 +288,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/DevCBuea/
     image: default.svg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Facebook Developer Circle Yaoundé
     category: community
     #max of five tags
@@ -300,7 +300,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/1216588391854380/
     image: default.svg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Facebook Developer Circle Douala
     category: community
     #max of five tags
@@ -312,4 +312,36 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/devcdouala/
     image: default.svg
+  #--------------------------------------------------------------
+  - title: ChosenNews
+    category: application
+    #max of five tags
+    tags:
+      - news
+    description: |
+      Reclaim control of your news feed with ChosenNews. Carefully designed for people who want to stay updated on selected topics, while avoiding clickbait and "fake news" from some media sites.
+    website: https://chosennews.net/home
+    #twitter group handle
+    twitter: https://twitter.com/chosennewshq
+    #android app store
+    playstore: https://play.google.com/store/apps/details?id=com.chosennews.chosennews
+    otherlinks:
+      - https://www.linkedin.com/company/chosennews/
+    image: chosennews.jpg
+  #--------------------------------------------------------------
+  - title: GDG Douala
+    category: community
+    #max of five tags
+    tags:
+      - opensource
+      - programming
+      - developers
+    description: |
+      Community of developers who are interested in Google technologies in  Douala.
+    website: https://gdg.community.dev/gdg-douala
+    #twitter group handle
+    twitter: https://twitter.com/gdgdouala
+    #facebook link
+    facebook: https://www.facebook.com/GDGDouala
+    image: gdgdouala.png
 #--------------------------------------------------------------
