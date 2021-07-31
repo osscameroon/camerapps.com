@@ -7,7 +7,7 @@ items:
       - programming
       - developers
     description: |
-      Oss Cameroon is an open source community by cameroonians developers.
+     Oss Cameroon is an open source community by cameroonians developers.
     website: https://osscameroon.com
     #twitter group handle
     twitter: https://twitter.com/osscameroon
@@ -32,7 +32,7 @@ items:
       - https://blog.osscameroon.com
       - https://miniyotas.osscameroon.com
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Python Cameroun
     category: community
     #max of five tags
@@ -40,14 +40,14 @@ items:
       - programming
       - developers
     description: |
-      The cameroon based python community organization.
+     The cameroon based python community organization.
     website: https://pythoncm.org
     #twitter group handle
     twitter: https://twitter.com/PythonCameroun
     github_account: https://github.com/python-cameroun
     telegram: https://t.me/python_cameroon
     image: python_cameroun.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Laravel Cameroun
     category: community
     #max of five tags
@@ -56,7 +56,7 @@ items:
       - developers
       - php
     description: |
-      Communauté des développeurs PHP et Laravel du Cameroun, le plus gros rassemblement de développeurs au Cameroun.
+     Communauté des développeurs PHP et Laravel du Cameroun, le plus gros rassemblement de développeurs au Cameroun.
     website: https://laravel.cm
     #twitter group handle
     twitter: https://twitter.com/laravelcm
@@ -65,21 +65,21 @@ items:
     telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
     slack: https://laravel.cm/join-slack
     image: laravel_cm.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Mbuntu
     category: application
     #max of five tags
     tags:
       - social
     description: |
-      Mbuntu is more than messaging. With a variety of features, you have endless options when it comes to expressing yourself. From unlimited group size, through beautiful stickers to high quality calls Mbuntu offers everything you need from a modern messaging app while keeping you safe and secure.
+     Mbuntu is more than messaging. With a variety of features, you have endless options when it comes to expressing yourself. From unlimited group size, through beautiful stickers to high quality calls Mbuntu offers everything you need from a modern messaging app while keeping you safe and secure.
     website: https://about.dklo.co/mbuntu
     #twitter group handle
     twitter: https://twitter.com/MbuntuOfficial
     playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
     appstore: https://about.dklo.co/mbuntu-beta-ios-en
     image: mbuntu.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Aurion : Kajuta Gems Fighter"
     category: video game
     #max of five tags
@@ -87,11 +87,11 @@ items:
       - social
       - jeux videos
     description: |
-      Help the King and Queen of Zama stop the corruption of Kajuta that threatens the world of Aurion. An adventure with a match3 combat system, easy to handle and super fun!
+     Help the King and Queen of Zama stop the corruption of Kajuta that threatens the world of Aurion. An adventure with a match3 combat system, easy to handle and super fun!
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Le Responsable Mboa"
     category: video game
     #max of five tags
@@ -99,37 +99,37 @@ items:
       - social
       - jeux videos
     description: |
-      Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
     website: https://www.leresponsable-mboa.com
     #twitter group handle
     twitter: https://twitter.com/ResponsableMboa
     playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
     image: le_responsable_mboa.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Afrotiles"
     category: video game
     #max of five tags
     tags:
       - jeux videos
     description: |
-      Have you ever wondered how is it like to be a musician and compose modern day beats ? Listen to the groovey beats while mastering the tile patterns and become a pro.
+     Have you ever wondered how is it like to be a musician and compose modern day beats ? Listen to the groovey beats while mastering the tile patterns and become a pro.
     website: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     #twitter group handle
     twitter: https://twitter.com/afrotiles
     playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     image: afrotiles.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Voyageurs"
     category: video game
     #max of five tags
     tags:
       - jeux videos
     description: |
-      Join this "runner defense" adventure and help the voyageurs reach their destination.
+     Join this "runner defense" adventure and help the voyageurs reach their destination.
     website: http://voyageurs.elhmn.com
     #twitter group handle
     image: voyageurs.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Flutter Cameroon
     category: community
     #max of five tags
@@ -137,11 +137,11 @@ items:
       - programming
       - developers
     description: |
-      Flutter Cameroon is a community of Dart and Flutter developers from Cameroon.
+     Flutter Cameroon is a community of Dart and Flutter developers from Cameroon.
     #twitter group handle
     twitter: https://twitter.com/fluttercm
     image: flutter_cm.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: LaMap Game
     category: video game
     #max of five tags
@@ -156,7 +156,7 @@ items:
     #github_account full url
     github_account: https://github.com/blurdylan/lamap-bot
     image: lamap_bot.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Qui-go
     category: application
     #max of five tags
@@ -169,7 +169,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: MyStore Africa
     category: application
     #max of five tags
@@ -177,23 +177,23 @@ items:
       - e-commerce
       - saas platform
     description: |
-      Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
+     Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
     website: https://www.mystore.africa
     twitter: https://twitter.com/MyStoreAfrica
     telegram: https://t.me/mystoreafrica_bot
     image: https://mystore.africa/assets/img/logo-two.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Hostme
     category: application
     #max of five tags
     tags:
       - hosting
     description: |
-      Mettez vos sites web en ligne facilement avec Hostme.space.
+     Mettez vos sites web en ligne facilement avec Hostme.space.
     website: https://www.hostme.space
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: My-CoolPay
     category: application
     #max of five tags
@@ -202,7 +202,7 @@ items:
       - programming
       - developers
     description: |
-      My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
+     My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
     website: https://my-coolpay.com/fr/
     #twitter group handle
     twitter: https://twitter.com/MyCoolPay
@@ -211,7 +211,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/mycoolpay
     image: logo_mycoolplay.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "MendoLearn"
     category: application
     #max of five tags
@@ -229,7 +229,7 @@ items:
 
     image: mendo_learn.png
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Colorfol
     category: application
     #max of five tags
@@ -237,7 +237,7 @@ items:
       - music
       - videos
     description: |
-      Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
+     Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
 
     twitter: https://twitter.com/ColorfolApp?s=20
     #facebook link
@@ -247,7 +247,7 @@ items:
 
     image: colorfol.jpg
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Dastudy
     category: platform
     #max of five tags
@@ -260,7 +260,7 @@ items:
 
     image: dastudy.jpg
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
 
   - title: TourCMR
     category: application
@@ -276,7 +276,7 @@ items:
 
     image: tour_cmr.png
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Buea
     category: community
     #max of five tags
@@ -288,7 +288,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/DevCBuea/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Yaoundé
     category: community
     #max of five tags
@@ -300,7 +300,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/1216588391854380/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Douala
     category: community
     #max of five tags
@@ -312,7 +312,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/devcdouala/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: ChosenNews
     category: application
     #max of five tags
@@ -328,7 +328,7 @@ items:
     otherlinks:
       - https://www.linkedin.com/company/chosennews/
     image: chosennews.jpg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: GDG Douala
     category: community
     #max of five tags
