@@ -7,7 +7,7 @@ items:
       - programming
       - developers
     description: |
-     Oss Cameroon is an open source community by cameroonians developers.
+      Oss Cameroon is an open source community by cameroonians developers.
     website: https://osscameroon.com
     #twitter group handle
     twitter: https://twitter.com/osscameroon
@@ -40,7 +40,7 @@ items:
       - programming
       - developers
     description: |
-     The cameroon based python community organization.
+      The cameroon based python community organization.
     website: https://pythoncm.org
     #twitter group handle
     twitter: https://twitter.com/PythonCameroun
@@ -56,7 +56,7 @@ items:
       - developers
       - php
     description: |
-     Communauté des développeurs PHP et Laravel du Cameroun, le plus gros rassemblement de développeurs au Cameroun.
+      Communauté des développeurs PHP et Laravel du Cameroun, le plus gros rassemblement de développeurs au Cameroun.
     website: https://laravel.cm
     #twitter group handle
     twitter: https://twitter.com/laravelcm
@@ -72,7 +72,7 @@ items:
     tags:
       - social
     description: |
-     Mbuntu is more than messaging. With a variety of features, you have endless options when it comes to expressing yourself. From unlimited group size, through beautiful stickers to high quality calls Mbuntu offers everything you need from a modern messaging app while keeping you safe and secure.
+      Mbuntu is more than messaging. With a variety of features, you have endless options when it comes to expressing yourself. From unlimited group size, through beautiful stickers to high quality calls Mbuntu offers everything you need from a modern messaging app while keeping you safe and secure.
     website: https://about.dklo.co/mbuntu
     #twitter group handle
     twitter: https://twitter.com/MbuntuOfficial
@@ -87,7 +87,7 @@ items:
       - social
       - jeux videos
     description: |
-     Help the King and Queen of Zama stop the corruption of Kajuta that threatens the world of Aurion. An adventure with a match3 combat system, easy to handle and super fun!
+      Help the King and Queen of Zama stop the corruption of Kajuta that threatens the world of Aurion. An adventure with a match3 combat system, easy to handle and super fun!
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
@@ -112,7 +112,7 @@ items:
     tags:
       - jeux videos
     description: |
-     Have you ever wondered how is it like to be a musician and compose modern day beats ? Listen to the groovey beats while mastering the tile patterns and become a pro.
+      Have you ever wondered how is it like to be a musician and compose modern day beats ? Listen to the groovey beats while mastering the tile patterns and become a pro.
     website: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     #twitter group handle
     twitter: https://twitter.com/afrotiles
@@ -125,11 +125,11 @@ items:
     tags:
       - jeux videos
     description: |
-     Join this "runner defense" adventure and help the voyageurs reach their destination.
+      Join this "runner defense" adventure and help the voyageurs reach their destination.
     website: http://voyageurs.elhmn.com
     #twitter group handle
     image: voyageurs.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Flutter Cameroon
     category: community
     #max of five tags
@@ -137,11 +137,11 @@ items:
       - programming
       - developers
     description: |
-     Flutter Cameroon is a community of Dart and Flutter developers from Cameroon.
+      Flutter Cameroon is a community of Dart and Flutter developers from Cameroon.
     #twitter group handle
     twitter: https://twitter.com/fluttercm
     image: flutter_cm.jpeg
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: LaMap Game
     category: video game
     #max of five tags
@@ -156,7 +156,7 @@ items:
     #github_account full url
     github_account: https://github.com/blurdylan/lamap-bot
     image: lamap_bot.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Qui-go
     category: application
     #max of five tags
@@ -169,7 +169,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: MyStore Africa
     category: application
     #max of five tags
@@ -177,23 +177,23 @@ items:
       - e-commerce
       - saas platform
     description: |
-     Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
+      Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
     website: https://www.mystore.africa
     twitter: https://twitter.com/MyStoreAfrica
     telegram: https://t.me/mystoreafrica_bot
     image: https://mystore.africa/assets/img/logo-two.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: Hostme
     category: application
     #max of five tags
     tags:
       - hosting
     description: |
-     Mettez vos sites web en ligne facilement avec Hostme.space.
+      Mettez vos sites web en ligne facilement avec Hostme.space.
     website: https://www.hostme.space
     telegram: https://t.me/hostme_space
     image: https://hostme.space/front_asset/img/logo/logo.png
-#--------------------------------------------------------------
+  #--------------------------------------------------------------
   - title: My-CoolPay
     category: application
     #max of five tags
@@ -202,7 +202,7 @@ items:
       - programming
       - developers
     description: |
-     My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
+      My-CoolPay aggregates all digital payment methods to enable businesses and individuals to raise funds online.
     website: https://my-coolpay.com/fr/
     #twitter group handle
     twitter: https://twitter.com/MyCoolPay
@@ -226,7 +226,7 @@ items:
     facebook: https://web.facebook.com/mendolearn
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.mendolearn&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-
+    
     image: mendo_learn.png
 
 #--------------------------------------------------------------
@@ -237,14 +237,14 @@ items:
       - music
       - videos
     description: |
-     Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
-
+      Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
+    
     twitter: https://twitter.com/ColorfolApp?s=20
     #facebook link
     facebook: https://web.facebook.com/ColorfolApp
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.dev.mobile.colortech
-
+    
     image: colorfol.jpg
 
 #--------------------------------------------------------------
@@ -254,10 +254,10 @@ items:
     tags:
       - education
     description: |
-      Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
+        Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
     twitter: https://twitter.com/dastudy19?s=20
     website: https://www.dastudy.net/
-
+    
     image: dastudy.jpg
 
 #--------------------------------------------------------------
@@ -268,12 +268,12 @@ items:
     tags:
       - Tourism
     description: |
-      TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature.
+        TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature. 
     twitter: https://twitter.com/TourCmrApp
     website: https://tourcmr.com/
     facebook: https://web.facebook.com/TourCmrApp
     playstore: https://play.google.com/store/apps/details?id=com.sirpangsui.tourcmr
-
+    
     image: tour_cmr.png
 
 #--------------------------------------------------------------
@@ -312,36 +312,4 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/devcdouala/
     image: default.svg
-#--------------------------------------------------------------
-  - title: ChosenNews
-    category: application
-    #max of five tags
-    tags:
-      - news
-    description: |
-      Reclaim control of your news feed with ChosenNews. Carefully designed for people who want to stay updated on selected topics, while avoiding clickbait and "fake news" from some media sites.
-    website: https://chosennews.net/home
-    #twitter group handle
-    twitter: https://twitter.com/chosennewshq
-    #android app store
-    playstore: https://play.google.com/store/apps/details?id=com.chosennews.chosennews
-    otherlinks:
-      - https://www.linkedin.com/company/chosennews/
-    image: chosennews.jpg
-#--------------------------------------------------------------
-  - title: GDG Douala
-    category: community
-    #max of five tags
-    tags:
-      - opensource
-      - programming
-      - developers
-    description: |
-      Community of developers who are interested in Google technologies in  Douala.
-    website: https://gdg.community.dev/gdg-douala
-    #twitter group handle
-    twitter: https://twitter.com/gdgdouala
-    #facebook link
-    facebook: https://www.facebook.com/GDGDouala
-    image: gdgdouala.png
 #--------------------------------------------------------------
