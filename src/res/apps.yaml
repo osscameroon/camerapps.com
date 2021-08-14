@@ -313,3 +313,35 @@ items:
     facebook: https://www.facebook.com/groups/devcdouala/
     image: default.svg
 #--------------------------------------------------------------
+  - title: ChosenNews
+    category: application
+    #max of five tags
+    tags:
+      - news
+    description: |
+      Reclaim control of your news feed with ChosenNews. Carefully designed for people who want to stay updated on selected topics, while avoiding clickbait and "fake news" from some media sites.
+    website: https://chosennews.net/home
+    #twitter group handle
+    twitter: https://twitter.com/chosennewshq
+    #android app store
+    playstore: https://play.google.com/store/apps/details?id=com.chosennews.chosennews
+    otherlinks:
+      - https://www.linkedin.com/company/chosennews/
+    image: chosennews.jpg
+#--------------------------------------------------------------
+  - title: GDG Douala
+    category: community
+    #max of five tags
+    tags:
+      - opensource
+      - programming
+      - developers
+    description: |
+      Community of developers who are interested in Google technologies in  Douala.
+    website: https://gdg.community.dev/gdg-douala
+    #twitter group handle
+    twitter: https://twitter.com/gdgdouala
+    #facebook link
+    facebook: https://www.facebook.com/GDGDouala
+    image: gdgdouala.png
+#--------------------------------------------------------------
