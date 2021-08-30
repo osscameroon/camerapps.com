@@ -10,6 +10,7 @@ export interface Item {
   tags?: string[];
   description?: string;
   website?: string;
+  url?: string;
 
   //twitter handle
   twitter?: string;
@@ -34,11 +35,12 @@ export interface Apps {
   items?: Item[];
 };
 
-const formatItems = (apps :Apps): Item[] | undefined => {
+const formatItems = (apps: Apps): Item[] | undefined => {
   let items = apps?.items?.map((i: Item): Item => ({
     ...i,
     image: i.image && (i.image.indexOf("http://") === 0 || i.image.indexOf("https://") === 0) ? i.image : "/res/imgs/" + i.image,
     github_handle: extractHandleFromGitHubUrl(i.github_account ?? ""),
+    url: i.website ?? i.dikalo ?? i.twitter ?? i.facebook ?? i.github_account ?? i.slack ?? i.telegram ?? i.whatsapp ?? i.playstore ?? i.appstore
   }));
   return items
 }
