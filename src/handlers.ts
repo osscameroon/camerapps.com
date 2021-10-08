@@ -17,10 +17,7 @@ export const handleSearch = async (req: any, res: any) => {
  */
 export const handleHome = async (req: any, res: any) => {
     res.render("index", {
-        ...{
         link: "home",
         currentYear: getCurrentYear(),
-        },
-        ...parseParams(req)
     });
 };
