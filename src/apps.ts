@@ -1,6 +1,7 @@
 import YAML from "yaml";
 import { extractHandleFromGitHubUrl } from "./helpers/github";
 import * as fs from "fs";
+import Fuse from "fuse.js";
 
 const appsFilePath = __dirname + "/res/apps.yaml";
 
@@ -59,4 +60,45 @@ export const getApps = (): Apps => {
   }
 
   return {};
+};
+
+export const getItemsMatchingQuery = (
+  query: string,
+  category: string,
+  tag: string,
+  items: any
+): Item[] => {
+  let list = items;
+
+  if (query !== "") {
+    const f: Fuse<Item> = new Fuse(items, {
+      distance: 100,
+      threshold: 0.3,
+      keys: ["description", "title", "tags", "category"],
+    });
+    list = f.search(query)?.map((e: Fuse.FuseResult<Item>): Item => {
+      return e.item;
+    });
+  }
+
+  const filteredByCategory = list.reduce((acc: any, val: any) => {
+    if (
+      category === "any" ||
+      val.category === category
+    ) {
+      return acc.concat(val);
+    }
+    return acc;
+  }, []);
+
+  const filteredByTags = filteredByCategory.reduce((acc: any, val: any) => {
+    if (
+      val.tags.find((t: any) =>  (tag === "any" || t === tag))
+    ) {
+      return acc.concat(val);
+    }
+    return acc;
+  }, []);
+
+  return filteredByTags;
 };
