@@ -18,6 +18,9 @@
 
 		{{#if (isLink link "home") }}
 			{{>home}}
+            {{#if  (isLower 0 pages)}}
+                {{>pagination}}
+            {{/if}}
 		{{/if}}
 	</div>
 </div>

@@ -1,0 +1,54 @@
+<nav aria-label="Page navigation example" class="d-flex justify-content-center">
+<ul class="pagination">
+    {{#if (ifEqual current 1 0)}}
+        <li class="disabled page-item"><a class="page-link disabled" >First</a></li>
+    {{else}}
+        {{#if hasParams}}
+            {{#if (contains fullUrl "page")}}
+                <li class="page-item"><a href="{{{constructUrl fullUrl 1}}}" class="page-link">First</a></li>
+            {{else}}
+                <li class="page-item"><a href="{{fullUrl}}&page=1" class="page-link">First</a></li>
+            {{/if}}
+        {{else}}
+            <li class="page-item"><a href="?page=1" class="page-link">First</a></li>
+        {{/if}}
+    {{/if}}
+    {{#if (ifDifferent interval  1) }}
+        <li class="disabled page-item"><a class="page-link">...</a></li>
+    {{/if}}
+        {{#each (displayPagesNumber interval current pages)}}
+            {{#if (ifEqual . current 0)}}
+                <li class="active page-item"><a class="page-link">{{ . }}</a></li>
+            {{else}}
+                {{#if @root.hasParams}}
+                    {{#if (contains @root.fullUrl "page")}}
+                        <li class="page-item"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ . }}</a></li>
+                    {{else}}
+                        <li class="page-item"><a href="{{@root.fullUrl}}&page={{.}}" class="page-link">{{ . }}</a></li>
+                    {{/if}}
+                {{else}}
+                    <li class="page-item"><a href="{{@root.fullUrl}}?page={{.}}" class="page-link">{{ . }}</a></li>
+                {{/if}}
+            {{/if}}
+            {{#if (ifEqual . current 4)}}
+                {{#if (ifLower . pages)}}
+                    <span>ici</span>
+                    <li class="disabled page-item"><a class="page-link">...</a></li>
+                {{/if}}
+            {{/if}}
+        {{/each}}
+    {{#if (ifEqual current pages 0)}}
+        <li class="disabled page-item"><a class="page-link">Last</a></li>
+    {{else}}
+        {{#if hasParams}}
+            {{#if (contains fullUrl "page")}}
+                <li class="page-item"><a href="{{{constructUrl fullUrl pages}}}" class="page-link">Last</a></li>
+            {{else}}
+                <li class="page-item"><a href="{{fullUrl}}&page={{pages}}" class="page-link">Last</a></li>
+            {{/if}}
+        {{else}}
+            <li class="page-item"><a href="?page={{pages}}" class="page-link">Last</a></li>
+        {{/if}}
+    {{/if}}
+</ul>
+</nav>

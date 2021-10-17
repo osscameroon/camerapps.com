@@ -6,7 +6,7 @@
   "scripts": {
     "start": "yarn build && node ./dist",
     "dev": "ENVIRONMENT=dev nodemon ./src/index.ts",
-    "build": "rm -rf ./dist/views ./dist/res; tsc --project ./; cp -R ./src/views ./src/res ./dist/",
+    "build": "rm -rf ./dist/views ./dist/res && tsc --project ./ && cp -R ./src/views ./src/res ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
