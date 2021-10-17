@@ -16,7 +16,7 @@
     {{#if (ifDifferent interval  1) }}
         <li class="disabled page-item"><a class="page-link">...</a></li>
     {{/if}}
-        {{#each (loop interval current pages)}}
+        {{#each (displayPagesNumber interval current pages)}}
             {{#if (ifEqual . current 0)}}
                 <li class="active page-item"><a class="page-link">{{ . }}</a></li>
             {{else}}

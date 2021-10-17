@@ -5,7 +5,7 @@ export const isLink = (exp: string, got: string): boolean => {
 export const ifEquals = (a: string, b: string): boolean => {
   return a === b;
 };
-export const loop = (interval: number,current: number, pages: number ): Array<number> => {
+export const displayPagesNumber = (interval: number,current: number, pages: number ): Array<number> => {
   let result = [];
   for (; interval <= (current+ 4) && interval <= pages; interval++){
     result.push(interval);
