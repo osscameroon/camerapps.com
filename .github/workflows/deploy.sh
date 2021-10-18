@@ -8,6 +8,7 @@ if [ -d "$DIR" ]; then
     cd $DIR
 
     # get/stash changes
+    git stash clear
     git stash
     git pull --rebase origin main
     git stash apply
