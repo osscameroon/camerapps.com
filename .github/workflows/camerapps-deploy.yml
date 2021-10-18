@@ -20,4 +20,4 @@ jobs:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
           key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: cd /home/deploy/camerapps.com && git stash; git pull --rebase origin main; git stash apply; yarn install && yarn build && pm2 restart camerapps && pm2 save
+          script: ./deploy.sh
