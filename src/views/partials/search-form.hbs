@@ -6,7 +6,7 @@
                 class="form-control" 
                 placeholder="Search for an app..." 
                 value="{{query}}"
-                onkeyup="searchApps(this, 'query')"/>
+                onkeyup="searchApps()"/>
         </div>
     </div>
 
@@ -14,7 +14,7 @@
         <select class="form-select" 
                 id="category"
                 aria-label="Default select category"
-                onchange="searchApps(this, 'category')">
+                onchange="searchApps()">
             {{#each categories.list}}
                 {{#if (ifEquals this @root.categories.selected) }}
                 <option value="{{ this }}" selected disabled>Select a category</option>
@@ -30,7 +30,7 @@
         <select class="form-select form-control"
                 id="tag"
                 aria-label="Default select tag"
-                onchange="searchApps(this, 'tag')">
+                onchange="searchApps()">
             {{#each tags.list}}
                 {{#if (ifEquals this @root.tags.selected) }}
                 <option value="{{ this }}" selected disabled>Select a tag</option>

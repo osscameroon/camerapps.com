@@ -46,6 +46,15 @@ const formatItems = (apps: Apps): Item[] | undefined => {
   return items
 }
 
+export const paginateApps = (items: Item[],page: number, limit: number=6) => {
+  const count = items.length;
+  const startIndex = (page - 1) * limit;
+  const endIndex  = page * limit;
+  items = items.slice(startIndex,endIndex);
+  const interval = (Number(page) > 5 ? Number(page) - 4 : 1);
+  return {count,items,interval};
+};
+
 export const getApps = (): Apps => {
   try {
     const file = fs.readFileSync(appsFilePath, "utf8");

@@ -7,6 +7,7 @@ import  {getCurrentYear} from "./helpers/common";
  * @param res 
  */
 export const handleSearch = async (req: any, res: any) => {
+    // we return the json of the query
     res.json(parseParams(req));
 }
 
@@ -17,7 +18,7 @@ export const handleSearch = async (req: any, res: any) => {
  */
 export const handleHome = async (req: any, res: any) => {
     res.render("index", {
-        link: "home",
-        currentYear: getCurrentYear(),
+        ...{link: "home", currentYear: getCurrentYear()},
+        ...parseParams(req)
     });
 };
