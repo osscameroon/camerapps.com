@@ -20,4 +20,4 @@ jobs:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
           key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: ./deploy.sh
+          script: ./.github/workflows/deploy.sh
