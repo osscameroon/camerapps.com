@@ -8,9 +8,8 @@ if [ -d "$DIR" ]; then
     cd $DIR
 
     # get/stash changes
-    git stash
-    git pull --rebase origin main
-    git stash apply
+    OUTPUT=$(git stash clear; git stash; git pull --rebase origin main || true && git stash apply || true)
+    echo $OUTPUT
 
     # yarn install/build
     yarn install && yarn build
