@@ -11,7 +11,7 @@ enum E_ENVIRONMENT {
 }
 
 const port: number = 3001;
-const limit: number  = 6;
+const limit: number  = 12;
 const app = express();
 
 const getCurrentYear = () => {
