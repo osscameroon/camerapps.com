@@ -345,3 +345,21 @@ items:
     facebook: https://www.facebook.com/GDGDouala
     image: gdgdouala.png
 #--------------------------------------------------------------
+  - title: Mapane
+    category: application
+    #max of five tags
+    tags:
+      - transportation
+      - travel
+    description: | 
+      Que vous soyez automobiliste, piéton, ou utilisateur de transport en commun, 
+      Mapane vous aide à choisir les bons itinéraires en évitant tous les évènements qui peuvent entraver ou gêner la circulation.
+    website: https://mapane.app/
+    playstore: https://play.google.com/store/apps/details?id=com.smartcodegroup.mapane
+    appstore: https://apps.apple.com/us/app/mapane/id1561016997
+    #twitter group handle
+    #twitter: 
+    #facebook link
+    facebook: https://www.facebook.com/mapaneapp
+    image: mapane.png
+#--------------------------------------------------------------
