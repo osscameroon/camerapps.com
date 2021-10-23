@@ -363,3 +363,19 @@ items:
     facebook: https://www.facebook.com/mapaneapp
     image: mapane.png
 #--------------------------------------------------------------
+  - title: Artefact
+    category: Framework and IDE
+    tags:
+      - opensource
+      - IDE
+      - Framework
+    description: |
+      Artefact-Creator is a development environment (IDE) and a progressive framework for building user interfaces and facilitates the development of multi-platform projects by combining the best technologies on the internet..
+    website: https://artefact-labs.com
+    twitter: https://twitter.com/Artefactoffici1
+    facebook: https://www.facebook.com/artefact.comp.9
+    github_account: https://github.com/Artefact-Labs
+    otherlinks:
+      - https://www.youtube.com/channel/UCoCL2zXJgq5OCOmEhm_qLfA
+    image: artefact.png
+#--------------------------------------------------------------
