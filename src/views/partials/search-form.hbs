@@ -1,0 +1,46 @@
+<form id="searchForm" class="row pt-4 pb-4 g-2 d-flex justify-content-center mt-5 mb-5 bg-light">
+    <div class="col-md-3">
+        <div class="input-group">
+        <input type="text" 
+                id="query"
+                class="form-control" 
+                placeholder="Search for an app..." 
+                value="{{query}}"
+                onkeyup="searchApps()"/>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <select class="form-select" 
+                id="category"
+                aria-label="Default select category"
+                onchange="searchApps()">
+            {{#each categories.list}}
+                {{#if (ifEquals this @root.categories.selected) }}
+                <option value="{{ this }}" selected disabled>Select a category</option>
+                <option value="{{ this }}">{{this}}</option>
+                {{else}}
+                <option value="{{ this }}">{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+
+    <div class="col-md-2">
+        <select class="form-select form-control"
+                id="tag"
+                aria-label="Default select tag"
+                onchange="searchApps()">
+            {{#each tags.list}}
+                {{#if (ifEquals this @root.tags.selected) }}
+                <option value="{{ this }}" selected disabled>Select a tag</option>
+                <option value="{{ this }}">{{this}}</option>
+                {{else}}
+                <option value="{{ this }}">{{this}}</option>
+                {{/if}}
+            {{/each}}
+        </select>
+    </div>
+</form>
+<!-- The js part -->
+<script src="/scripts/search-form.js"></script>
