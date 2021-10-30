@@ -17,10 +17,8 @@
 		</div>
 
 		{{#if (isLink link "home") }}
-			{{>search-form}}
-			{{>app-list}}
-
-            {{#if (isLower 0 pages)}}
+			{{>home}}
+            {{#if  (isLower 0 pages)}}
                 {{>pagination}}
             {{/if}}
 		{{/if}}
