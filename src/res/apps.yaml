@@ -379,3 +379,17 @@ items:
       - https://www.youtube.com/channel/UCoCL2zXJgq5OCOmEhm_qLfA
     image: artefact.png
 #--------------------------------------------------------------
+  - title: AfricanJob
+    category: service
+    #max of five tags
+    tags:
+      - print
+      - imprimerie
+      - serigraphie
+    description: |
+     Nous vous accompagnons dans la conception et la réalisation de vos supports de communication numériques, imprimés, web et digitaux selon les besoins et les objectifs de votre entreprise.
+    website: https://africanjobco.com
+    #twitter group handle
+    twitter: https://twitter.com/Africanjob
+    image: https://pbs.twimg.com/profile_images/1218827868526071808/bFGDUTns_400x400.jpg
+#--------------------------------------------------------------
