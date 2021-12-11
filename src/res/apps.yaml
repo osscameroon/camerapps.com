@@ -393,19 +393,6 @@ items:
     twitter: https://twitter.com/Africanjob
     image: https://pbs.twimg.com/profile_images/1218827868526071808/bFGDUTns_400x400.jpg
 #--------------------------------------------------------------------
-  - title: Appfabrik
-    category: Software Company
-    #max of five tags
-    tags:
-      - Software Solution
-      - Fintech
-    description: |
-      Faisant de l’économie numérique notre principal domaine d’activité, nous sommes une start-up germano-camerounaise spécialisée dans le domaine des technologies innovantes. Né du souci d’allier nos habitudes quotidiennes à l’usage des nouveaux modes de communication nous menons des recherches afin de déceler les besoins et les manques divers auxquels nous proposons des solutions essentiellement technologiques. De la fusion des termes « Application » (App) et « Fabrication » (Fabrik), AppFabrik fait donc en grande partie dans la création d’applications mobiles et de logiciels informatiques. D’où notre slogan « Software solution ». Faisant de la Financial Technologie (FINTECH) notre crédo, nous prônons la simplification des procédures financières par des méthodes essentiellement numériques. Basé à Douala depuis février 2017, la jeune équipe de cette structure caresse l’ambition de participer activement au développement numérique du continent Africain. Ceci à travers la création d’un environnement productif et la promotion des solutions durables adaptées aux différentes conditions de nos cibles. Avec les nombreuses stratégies que nous déployons au quotidien, nous touchons de nombreux particuliers et des structures qui en retour nous témoignent de leur confiance.
-    website: https://www.myappfabrik.com/
-    #facebook link
-    facebook: https://web.facebook.com/myappfabrik
-    image: appfabrik.png
-#--------------------------------------------------------------------
   - title: Djangui
     category: application
     #max of five tags
@@ -414,7 +401,7 @@ items:
       - Fintech Solution
       - Gestion facile des Tontines en ligne
     description: |
-      Djangui est une application facilitant la gestion des tontines en ligne développée par la startup Appfabrik. L'application est disponible sur Google Play store et sera sur App store dans les semaines à venir.
+      Djangui est une application facilitant la gestion des tontines en ligne développée par la startup Appfabrik.
     website: https://www.djangui.net/
     #facebook link
     facebook: https://web.facebook.com/MyDjangui/
@@ -425,6 +412,7 @@ items:
     otherlinks:
       - https://web.facebook.com/djanguicameroon/
       - https://www.myappfabrik.com/
+      - https://web.facebook.com/myappfabrik
       - https://www.youtube.com/channel/UC0t-cWqZy9P_T87t1mB0-PA
     image: djangui.png
 #--------------------------------------------------------------
