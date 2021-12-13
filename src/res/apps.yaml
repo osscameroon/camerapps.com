@@ -170,29 +170,56 @@ items:
     twitter: https://twitter.com/Qui_Go
     image: quigo.png
   #--------------------------------------------------------------
-  - title: MyStore Africa
+  - title: Genuka
     category: application
     #max of five tags
     tags:
       - e-commerce
       - saas platform
     description: |
-      Créez des boutiques e-commerce rapidement et simplement avec MyStore.africa. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
-    website: https://www.mystore.africa
-    twitter: https://twitter.com/MyStoreAfrica
+      Créez des boutiques e-commerce rapidement et simplement avec Genuka.com. Une API est disponible pour les développeurs qui souhaitent développer rapidement les boutiques en ligne de leur clients.
+    website: https://www.genuka.com
+    twitter: https://twitter.com/GenukaOfficiel
     telegram: https://t.me/mystoreafrica_bot
-    image: https://mystore.africa/assets/img/logo-two.png
+    image: logo_genuka.png
   #--------------------------------------------------------------
   - title: Hostme
     category: application
     #max of five tags
     tags:
+      - developers
       - hosting
     description: |
-      Mettez vos sites web en ligne facilement avec Hostme.space.
+      Hébergez vos sites en ligne plus rapidement et plus simplement avec Hostme.space. Un outil fait par des développeurs pour des développeurs.
     website: https://www.hostme.space
+    twitter: https://twitter.com/hostmeSpace
     telegram: https://t.me/hostme_space
-    image: https://hostme.space/front_asset/img/logo/logo.png
+    image: logo_hostme.png
+  #--------------------------------------------------------------
+  - title: Share
+    category: application
+    #max of five tags
+    tags:
+      - URL Shortener
+      - Marketing
+      - api
+    description: |
+      Share.cm allows you to learn more about your audience. You can brand, manage and shorten your links easily.
+    website: https://www.share.cm
+    telegram: https://t.me/shareCmBot
+    image: https://share.cm/homepage/assets/images/logos/favicon.svg
+  #--------------------------------------------------------------
+  - title: Katika
+    category: application
+    #max of five tags
+    tags:
+      - Finance
+      - e-commerce
+    description: |
+      préservez vous des arnaques en ligne et passez vos commandes en ligne en utilisant Katika.
+    website: https://www.katika.me
+    telegram: https://t.me/shareCmBot
+    image: logo_katika.png
   #--------------------------------------------------------------
   - title: My-CoolPay
     category: application
