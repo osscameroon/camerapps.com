@@ -442,4 +442,21 @@ items:
       - https://web.facebook.com/myappfabrik
       - https://www.youtube.com/channel/UC0t-cWqZy9P_T87t1mB0-PA
     image: djangui.png
+#--------------------------------------------------------------------
+  - title: atbswp
+    category: application
+    tags:
+      - opensource
+      - programming
+      - developers
+      - python
+    description: |
+      atbswp is a minimal macro recorder
+    website: https://rmpr.xyz/atbswp
+    twitter: https://twitter.com/atbswp
+    telegram: https://t.me/atbswp
+    github_account: https://github.com/rmpr/atbswp
+    otherlinks:
+      - https://www.youtube.com/watch?v=L0jjSgX5FYk
+    image: atbswp.png
 #--------------------------------------------------------------
