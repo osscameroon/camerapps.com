@@ -513,10 +513,32 @@ items:
     #max of five tags
     tags:
       - education
-       - past questions
+      - past questions
     description: |
       Quesers is a mobile app that serves as a search Engine for past questions and answers.
     website: https://www.quesers.org
     playstore: https://play.google.com/store/apps/details?id=io.ionic.com.app.com.app.quesers&hl=en&gl=US
     image: quesers.png
+#--------------------------------------------------------------
+  - title: Clafrica
+    category: utility
+    #max of five tags
+    tags:
+      - cameroon
+      - typing
+    description: |
+      This application allows you to type most of the characters in the african alphabet in any text field.
+    website: https://resulam.com/en/clafrica-app/
+    image: clafrica.png
+#--------------------------------------------------------------
+  - title: TourCMR
+    category: travel
+    #max of five tags
+    tags:
+      - cameroon
+      - tourism
+    description: |
+      The TourCMR App provides you with tourist sites from all over Cameron that are classified under the different towns with descriptions, directions, and cost estimates for each site.
+    website: http://tourcameroon.org/
+    image: default.svg
 #--------------------------------------------------------------
