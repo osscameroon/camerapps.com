@@ -460,3 +460,51 @@ items:
       - https://www.youtube.com/watch?v=L0jjSgX5FYk
     image: atbswp.png
 #--------------------------------------------------------------
+  - title: Nervtek
+    category: community
+    tags:
+      - tech
+      - software
+      - hardware
+    description: |
+      Nervtek is aimed at raising young leaders and entrepreneurs, who will be capable of bringing into reality what Cameroonians and Africans need in terms of technological advancements.
+    website: https://nervtek.org/
+    twitter: https://twitter.com/nervtek_237
+    #facebook link
+    facebook: https://www.facebook.com/nervteknologies
+    otherlinks:
+      - https://www.instagram.com/nervtek237/?hl=en
+      - https://www.linkedin.com/company/nervtek/
+      - https://www.youtube.com/channel/UCibYlxydBxhXw3xnxA082fQ
+    image: nervtek.png
+#--------------------------------------------------------------
+  - title: Yisafa
+    category: community
+    tags:
+      - tech
+      - software
+      - hardware
+    description: |
+      YISAFA is aimed at promoting ladies in the community and the world at large.
+    website: https://yisafacameroon.org/
+    twitter: https://www.twitter.com/yisafacameroon
+    #facebook link
+    facebook: https://www.facebook.com/Yisafa-689123065272684
+    otherlinks:
+      - https://www.instagram.com/yisafacameroon
+      - https://www.linkedin.com/company/yisafa/
+    image: yisafa.png
+#--------------------------------------------------------------
+  - title: Ondjoss
+    category: application
+    #max of five tags
+    tags:
+      - social
+    description: |
+      OnDjoss is an African message application, designed by Africans for the world. It is simple, safe and secure.
+    website: https://www.ondjoss.com
+    playstore: https://play.google.com/store/apps/details?id=com.steve.ondjoss&hl=en&gl=US
+    #twitter group handle
+    twitter: https://twitter.com
+    image: ondjoss.png
+#--------------------------------------------------------------
