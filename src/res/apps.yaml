@@ -542,3 +542,15 @@ items:
     website: http://tourcameroon.org/
     image: default.svg
 #--------------------------------------------------------------
+  - title: MyNkwa
+    category: finance
+    #max of five tags
+    tags:
+      - finance
+      - money
+      - invest
+    description: |
+      The Nkwa app will enable you to achieve those financial goals you have been finding difficulties realizing.
+    website: http://tourcameroon.org/
+    image: nkwa.png
+#--------------------------------------------------------------
