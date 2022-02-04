@@ -460,3 +460,101 @@ items:
       - https://www.youtube.com/watch?v=L0jjSgX5FYk
     image: atbswp.png
 #--------------------------------------------------------------
+  - title: Nervtek
+    category: community
+    tags:
+      - tech
+      - software
+      - hardware
+    description: |
+      Nervtek is aimed at raising young leaders and entrepreneurs, who will be capable of bringing into reality what Cameroonians and Africans need in terms of technological advancements.
+    website: https://nervtek.org/
+    twitter: https://twitter.com/nervtek_237
+    #facebook link
+    facebook: https://www.facebook.com/nervteknologies
+    otherlinks:
+      - https://www.instagram.com/nervtek237/?hl=en
+      - https://www.linkedin.com/company/nervtek/
+      - https://www.youtube.com/channel/UCibYlxydBxhXw3xnxA082fQ
+    image: nervtek.png
+#--------------------------------------------------------------
+  - title: Yisafa
+    category: community
+    tags:
+      - tech
+      - software
+      - hardware
+    description: |
+      YISAFA is aimed at promoting ladies in the community and the world at large.
+    website: https://yisafacameroon.org/
+    twitter: https://www.twitter.com/yisafacameroon
+    #facebook link
+    facebook: https://www.facebook.com/Yisafa-689123065272684
+    otherlinks:
+      - https://www.instagram.com/yisafacameroon
+      - https://www.linkedin.com/company/yisafa/
+    image: yisafa.png
+#--------------------------------------------------------------
+  - title: Ondjoss
+    category: application
+    #max of five tags
+    tags:
+      - social
+    description: |
+      OnDjoss is an African message application, designed by Africans for the world. It is simple, safe and secure.
+    website: https://www.ondjoss.com
+    playstore: https://play.google.com/store/apps/details?id=com.steve.ondjoss&hl=en&gl=US
+    #twitter group handle
+    twitter: https://twitter.com
+    image: ondjoss.png
+#--------------------------------------------------------------
+  - title: Quesers
+    category: education
+    #max of five tags
+    tags:
+      - education
+      - past questions
+    description: |
+      Quesers is a mobile app that serves as a search Engine for past questions and answers.
+    website: https://www.quesers.org
+    playstore: https://play.google.com/store/apps/details?id=io.ionic.com.app.com.app.quesers&hl=en&gl=US
+    image: quesers.png
+#--------------------------------------------------------------
+  - title: Clafrica
+    category: utility
+    #max of five tags
+    tags:
+      - cameroon
+      - typing
+    description: |
+      This application allows you to type most of the characters in the african alphabet in any text field.
+    website: https://resulam.com/en/clafrica-app/
+    image: clafrica.png
+#--------------------------------------------------------------
+  - title: TourCMR
+    category: travel
+    #max of five tags
+    tags:
+      - cameroon
+      - tourism
+    description: |
+      The TourCMR App provides you with tourist sites from all over Cameron that are classified under the different towns with descriptions, directions, and cost estimates for each site.
+    website: http://tourcameroon.org/
+    image: default.svg
+#--------------------------------------------------------------
+  - title: MyNkwa
+    category: finance
+    #max of five tags
+    tags:
+      - finance
+      - money
+      - invest
+    description: |
+      The Nkwa app will enable you to achieve those financial goals you have been finding difficulties realizing.
+    website: https://mynkwa.com
+    playstore: https://play.google.com/store/apps/details?id=com.maealth.oyesavings&hl=en
+    appstore: https://apps.apple.com/us/app/nkwa/id1535681910
+    otherlinks:
+      - https://medium.com/@mynkwa
+    image: nkwa.png
+#--------------------------------------------------------------
