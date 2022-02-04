@@ -551,6 +551,10 @@ items:
       - invest
     description: |
       The Nkwa app will enable you to achieve those financial goals you have been finding difficulties realizing.
-    website: http://tourcameroon.org/
+    website: https://mynkwa.com
+    playstore: https://play.google.com/store/apps/details?id=com.maealth.oyesavings&hl=en
+    appstore: https://apps.apple.com/us/app/nkwa/id1535681910
+    otherlinks:
+      - https://medium.com/@mynkwa
     image: nkwa.png
 #--------------------------------------------------------------
