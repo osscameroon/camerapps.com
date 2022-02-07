@@ -531,17 +531,6 @@ items:
     website: https://resulam.com/en/clafrica-app/
     image: clafrica.png
 #--------------------------------------------------------------
-  - title: TourCMR
-    category: travel
-    #max of five tags
-    tags:
-      - cameroon
-      - tourism
-    description: |
-      The TourCMR App provides you with tourist sites from all over Cameron that are classified under the different towns with descriptions, directions, and cost estimates for each site.
-    website: http://tourcameroon.org/
-    image: default.svg
-#--------------------------------------------------------------
   - title: MyNkwa
     category: finance
     #max of five tags
