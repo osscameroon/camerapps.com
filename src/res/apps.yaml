@@ -546,4 +546,17 @@ items:
     otherlinks:
       - https://medium.com/@mynkwa
     image: nkwa.png
-#--------------------------------------------------------------
+#--------------------------------------------------------------------
+  - title: Angular Cameroon
+    category: community
+    #max of five tags
+    tags:
+      - Angular
+      - cameroon
+      - tech
+      - software
+      - Framework
+    description: |
+      Angular Developers Community from Cameroon
+    twitter: https://twitter.com/AngularCameroon
+    image: angular.png
