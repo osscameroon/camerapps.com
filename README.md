@@ -11,7 +11,7 @@ You might need to install `yarn` and a `node` version >= 15
 ## How to run locally ?
 
 - Run `yarn install`
-- Run `yarn dev`
+- Run `yarn start`
 
 ## How to add a new application, facebook, or telegram group ?
 
