@@ -560,6 +560,17 @@ items:
       Angular Developers Community from Cameroon
     twitter: https://twitter.com/AngularCameroon
     image: angular.png
+#--------------------------------------------------------------------
+  - title: TchopEtYamo
+    category: service
+    tags:
+      - restaurant
+    description: |
+      Tchop et yamo est un restaurant qui propose des dégustations sur place ou en livraison et bien plus encore.
+    website: https://www.tchopetyamo.com
+    facebook: https://web.facebook.com/tchopetyamo
+    twitter: https://twitter.com/Tchopetyamo1
+    image: tchop_et_yamo.png
 #--------------------------------------------------------------
   - title: Waanda Comics
     category: service
