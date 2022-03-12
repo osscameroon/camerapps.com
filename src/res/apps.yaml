@@ -572,3 +572,15 @@ items:
     twitter: https://twitter.com/Tchopetyamo1
     image: tchop_et_yamo.png
 #--------------------------------------------------------------
+  - title: Waanda Comics
+    category: service
+    tags:
+      - Cameroon comics
+      - African comics
+    description: |
+      Accédez au meilleur catalogue de bandes dessinées africaines en format numérique et/ou physique.
+      BD, Manga, Webtoon, Comics, lisez en ligne, faites-vous livrer les versions physiques de vos BD préférées.
+    website: https://www.waandacomics.com
+    twitter: https://twitter.com/Waandacomics
+    facebook: https://web.facebook.com/Waandacomics
+    image: waanda_comics.png
