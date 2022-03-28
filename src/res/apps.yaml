@@ -32,7 +32,7 @@ items:
       - https://blog.osscameroon.com
       - https://miniyotas.osscameroon.com
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Python Cameroun
     category: community
     #max of five tags
@@ -47,7 +47,7 @@ items:
     github_account: https://github.com/python-cameroun
     telegram: https://t.me/python_cameroon
     image: python_cameroun.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Laravel Cameroun
     category: community
     #max of five tags
@@ -65,7 +65,7 @@ items:
     telegram: https://t.me/joinchat/FzwEmhVrJcOnxQdG6ETtCA
     slack: https://laravel.cm/join-slack
     image: laravel_cm.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Mbuntu
     category: application
     #max of five tags
@@ -79,7 +79,7 @@ items:
     playstore: https://play.google.com/store/apps/details?id=co.dklo.mbuntu
     appstore: https://about.dklo.co/mbuntu-beta-ios-en
     image: mbuntu.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Aurion : Kajuta Gems Fighter"
     category: video game
     #max of five tags
@@ -91,7 +91,7 @@ items:
     website: https://www.aurionuniverse.com/mobile/aurionkgf
     playstore: https://play.google.com/store/apps/details?id=com.Kiroogames.AurionKGF
     image: aurionkgf.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Le Responsable Mboa"
     category: video game
     #max of five tags
@@ -99,13 +99,13 @@ items:
       - social
       - jeux videos
     description: |
-      Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
+     Sous très haute instruction de Son Excellentissime Mougabiang, vous allez enfin pouvoir vivre une première semaine en tant que stagiaire dans le "Ministère Général", dans ce jeu de gestion/simulation de vie satyrique {ENCORE EN DEVELOPPEMENT}.
     website: https://www.leresponsable-mboa.com
     #twitter group handle
     twitter: https://twitter.com/ResponsableMboa
     playstore: https://play.google.com/store/apps/details?id=com.kiroogames.leresponsablemboa
     image: le_responsable_mboa.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Afrotiles"
     category: video game
     #max of five tags
@@ -118,7 +118,7 @@ items:
     twitter: https://twitter.com/afrotiles
     playstore: https://play.google.com/store/apps/details?id=com.elhmn.afrotiles
     image: afrotiles.jpeg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "Voyageurs"
     category: video game
     #max of five tags
@@ -238,7 +238,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/mycoolpay
     image: logo_mycoolplay.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: "MendoLearn"
     category: application
     #max of five tags
@@ -253,10 +253,10 @@ items:
     facebook: https://web.facebook.com/mendolearn
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.mendolearn&hl=fr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-
+    
     image: mendo_learn.png
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Colorfol
     category: application
     #max of five tags
@@ -265,29 +265,29 @@ items:
       - videos
     description: |
       Plate-forme de streaming (audio & video) et de promotion de la musique camerounaise et africaine
-
+    
     twitter: https://twitter.com/ColorfolApp?s=20
     #facebook link
     facebook: https://web.facebook.com/ColorfolApp
     #android app store
     playstore: https://play.google.com/store/apps/details?id=com.dev.mobile.colortech
-
+    
     image: colorfol.jpg
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Dastudy
     category: platform
     #max of five tags
     tags:
       - education
     description: |
-      Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
+        Dastudy offers you easy access to knowledge and entertainment thanks to PDF documents, software, video games, video tutorials
     twitter: https://twitter.com/dastudy19?s=20
     website: https://www.dastudy.net/
-
+    
     image: dastudy.jpg
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
 
   - title: TourCMR
     category: application
@@ -295,15 +295,15 @@ items:
     tags:
       - Tourism
     description: |
-      TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature.
+        TourCMR brings to you the hidden beauty of Cameroon. Join us explore Africa in Miniature. 
     twitter: https://twitter.com/TourCmrApp
     website: https://tourcmr.com/
     facebook: https://web.facebook.com/TourCmrApp
     playstore: https://play.google.com/store/apps/details?id=com.sirpangsui.tourcmr
-
+    
     image: tour_cmr.png
 
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Buea
     category: community
     #max of five tags
@@ -315,7 +315,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/DevCBuea/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Yaoundé
     category: community
     #max of five tags
@@ -327,7 +327,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/1216588391854380/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Facebook Developer Circle Douala
     category: community
     #max of five tags
@@ -339,7 +339,7 @@ items:
     #facebook link
     facebook: https://www.facebook.com/groups/devcdouala/
     image: default.svg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: ChosenNews
     category: application
     #max of five tags
@@ -355,7 +355,7 @@ items:
     otherlinks:
       - https://www.linkedin.com/company/chosennews/
     image: chosennews.jpg
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: GDG Douala
     category: community
     #max of five tags
@@ -371,25 +371,25 @@ items:
     #facebook link
     facebook: https://www.facebook.com/GDGDouala
     image: gdgdouala.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Mapane
     category: application
     #max of five tags
     tags:
       - transportation
       - travel
-    description: |
+    description: | 
       Que vous soyez automobiliste, piéton, ou utilisateur de transport en commun, 
       Mapane vous aide à choisir les bons itinéraires en évitant tous les évènements qui peuvent entraver ou gêner la circulation.
     website: https://mapane.app/
     playstore: https://play.google.com/store/apps/details?id=com.smartcodegroup.mapane
     appstore: https://apps.apple.com/us/app/mapane/id1561016997
     #twitter group handle
-    #twitter:
+    #twitter: 
     #facebook link
     facebook: https://www.facebook.com/mapaneapp
     image: mapane.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Artefact
     category: Framework and IDE
     tags:
@@ -405,7 +405,7 @@ items:
     otherlinks:
       - https://www.youtube.com/channel/UCoCL2zXJgq5OCOmEhm_qLfA
     image: artefact.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: AfricanJob
     category: service
     #max of five tags
@@ -414,12 +414,12 @@ items:
       - imprimerie
       - serigraphie
     description: |
-      Nous vous accompagnons dans la conception et la réalisation de vos supports de communication numériques, imprimés, web et digitaux selon les besoins et les objectifs de votre entreprise.
+     Nous vous accompagnons dans la conception et la réalisation de vos supports de communication numériques, imprimés, web et digitaux selon les besoins et les objectifs de votre entreprise.
     website: https://africanjobco.com
     #twitter group handle
     twitter: https://twitter.com/Africanjob
     image: https://pbs.twimg.com/profile_images/1218827868526071808/bFGDUTns_400x400.jpg
-  #--------------------------------------------------------------------
+#--------------------------------------------------------------------
   - title: Djangui
     category: application
     #max of five tags
@@ -442,7 +442,7 @@ items:
       - https://web.facebook.com/myappfabrik
       - https://www.youtube.com/channel/UC0t-cWqZy9P_T87t1mB0-PA
     image: djangui.png
-  #--------------------------------------------------------------------
+#--------------------------------------------------------------------
   - title: atbswp
     category: application
     tags:
@@ -459,7 +459,7 @@ items:
     otherlinks:
       - https://www.youtube.com/watch?v=L0jjSgX5FYk
     image: atbswp.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Nervtek
     category: community
     tags:
@@ -477,7 +477,7 @@ items:
       - https://www.linkedin.com/company/nervtek/
       - https://www.youtube.com/channel/UCibYlxydBxhXw3xnxA082fQ
     image: nervtek.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Yisafa
     category: community
     tags:
@@ -494,7 +494,7 @@ items:
       - https://www.instagram.com/yisafacameroon
       - https://www.linkedin.com/company/yisafa/
     image: yisafa.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Ondjoss
     category: application
     #max of five tags
@@ -507,7 +507,7 @@ items:
     #twitter group handle
     twitter: https://twitter.com
     image: ondjoss.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Quesers
     category: education
     #max of five tags
@@ -519,7 +519,7 @@ items:
     website: https://www.quesers.org
     playstore: https://play.google.com/store/apps/details?id=io.ionic.com.app.com.app.quesers&hl=en&gl=US
     image: quesers.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Clafrica
     category: utility
     #max of five tags
@@ -530,7 +530,7 @@ items:
       This application allows you to type most of the characters in the african alphabet in any text field.
     website: https://resulam.com/en/clafrica-app/
     image: clafrica.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: MyNkwa
     category: finance
     #max of five tags
@@ -546,7 +546,7 @@ items:
     otherlinks:
       - https://medium.com/@mynkwa
     image: nkwa.png
-  #--------------------------------------------------------------------
+#--------------------------------------------------------------------
   - title: Angular Cameroon
     category: community
     #max of five tags
@@ -560,7 +560,7 @@ items:
       Angular Developers Community from Cameroon
     twitter: https://twitter.com/AngularCameroon
     image: angular.png
-  #--------------------------------------------------------------------
+#--------------------------------------------------------------------
   - title: TchopEtYamo
     category: service
     tags:
@@ -571,7 +571,7 @@ items:
     facebook: https://web.facebook.com/tchopetyamo
     twitter: https://twitter.com/Tchopetyamo1
     image: tchop_et_yamo.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Waanda Comics
     category: service
     tags:
@@ -584,10 +584,9 @@ items:
     twitter: https://twitter.com/Waandacomics
     facebook: https://web.facebook.com/Waandacomics
     image: waanda_comics.png
-  #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: GeOsm
     category: SIG
-    #max of five tags
     tags:
       - webmapping
       - open data
@@ -595,13 +594,9 @@ items:
     description: |
       GeOsm is an open, collaborative and shared infrastructure composed of data, resources and actors who all play a leading role in the deployment.
     website: https://geo.sm
-    #twitter group handle
     twitter: https://twitter.com/GeOsm_Family
-    #facebook link
     facebook: https://www.facebook.com/GeOsm.Family
-    #slack application
     slack: https://join.slack.com/t/geosm/shared_invite/zt-t58ecq0x-Z74zx4pT2ypCBYw7BItDfA
-    #github_account full url
     github_account: https://github.com/GeOsmFamily
     otherlinks:
       - https://cameroun.geo.sm
