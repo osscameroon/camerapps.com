@@ -584,3 +584,21 @@ items:
     twitter: https://twitter.com/Waandacomics
     facebook: https://web.facebook.com/Waandacomics
     image: waanda_comics.png
+#--------------------------------------------------------------
+  - title: GeOsm
+    category: SIG
+    tags:
+      - webmapping
+      - open data
+      - geospatial
+    description: |
+      GeOsm is an open, collaborative and shared infrastructure composed of data, resources and actors who all play a leading role in the deployment.
+    website: https://geo.sm
+    twitter: https://twitter.com/GeOsm_Family
+    facebook: https://www.facebook.com/GeOsm.Family
+    slack: https://join.slack.com/t/geosm/shared_invite/zt-t58ecq0x-Z74zx4pT2ypCBYw7BItDfA
+    github_account: https://github.com/GeOsmFamily
+    otherlinks:
+      - https://cameroun.geo.sm
+    image: geosm.jpeg
+#--------------------------------------------------------------
