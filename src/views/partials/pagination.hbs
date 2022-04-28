@@ -22,7 +22,11 @@
             {{else}}
                 {{#if @root.hasParams}}
                     {{#if (contains @root.fullUrl "page")}}
-                        <li class="page-item"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ . }}</a></li>
+                        {{#if (ifContains @root.fullUrl .)}}
+                            <li class="page-item active"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ . }}</a></li>
+                        {{else}}
+                          <li class="page-item"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ . }}</a></li>
+                        {{/if}}
                     {{else}}
                         <li class="page-item"><a href="{{@root.fullUrl}}&page={{.}}" class="page-link">{{ . }}</a></li>
                     {{/if}}
