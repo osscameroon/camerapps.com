@@ -13,6 +13,13 @@ You might need to install `yarn` and a `node` version >= 15
 - Run `yarn install`
 - Run `yarn start`
 
+## Run into a docker container
+
+```bash
+docker build -t camerapps:latest .
+docker run -p 3001:3001 camerapps:latest
+```
+
 ## How to add a new application, facebook, or telegram group ?
 
 To add a new application you might need to raise a pull request, or/and support us financially [here](https://opencollective.com/osscameroon) 😉
