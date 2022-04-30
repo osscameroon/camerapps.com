@@ -1,6 +1,7 @@
 FROM node:15-alpine as builder
 
-WORKDIR /usr/src/app
+WORKDIR /app
+RUN chmod 777 /app
 
 COPY . .
 
@@ -14,13 +15,12 @@ RUN yarn build
 
 FROM node:15-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /app
+RUN chmod 777 /app
 
-COPY package.json package.json
-COPY yarn.lock yarn.lock
-COPY --from=builder /usr/src/app/dist dist
-
+COPY package.json yarn.lock ./
 RUN yarn install --production
+COPY --from=builder /app/dist dist
 
 ENV HOST 0.0.0.0
 
