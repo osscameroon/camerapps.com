@@ -602,3 +602,34 @@ items:
       - https://cameroun.geo.sm
     image: geosm.jpeg
 #--------------------------------------------------------------
+  - title: GDG Buea
+    category: community
+    #max of five tags
+    tags:
+      - Events
+      - programming
+      - developers
+    description: |
+      A Community that codes!
+    website: https://gdgbuea.net
+    #twitter group handle
+    twitter: https://twitter.com/gdgbuea
+    #dikalo group handle or link
+    dikalo:
+    #telegram group link
+    telegram: 
+    #facebook link
+    facebook: https://www.facebook.com/gdgbuea/
+    #whatsapp link
+    whatsapp:
+    #android app store
+    playstore:
+    #ios app store
+    appstore:
+    #slack application
+    slack:
+    #github_account full url
+    github_account: https://github.com/GDG-Buea
+    otherlinks:
+    image: gdgdouala.png
+    #--------------------------------------------------------------
