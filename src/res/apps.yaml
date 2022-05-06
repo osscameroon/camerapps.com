@@ -602,7 +602,6 @@ items:
       - https://cameroun.geo.sm
     image: geosm.jpeg
 #--------------------------------------------------------------
-items:
   - title: GDG Buea
     category: community
     #max of five tags
