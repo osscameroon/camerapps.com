@@ -633,3 +633,34 @@ items:
     otherlinks:
     image: gdgdouala.png
     #--------------------------------------------------------------
+  - title: OSCA Yaounde
+    category: community
+    #max of five tags
+    tags:
+      - opensource
+      - programming
+      - developers
+    description: |
+      Open Source Community Africa Yaounde is a chapter of @oscafrica focused on increasing the rate of credible contributions by Africans to open source
+    website: 
+    #twitter group handle
+    twitter: https://twitter.com/osca_yaounde
+    #dikalo group handle or link
+    dikalo:
+    #telegram group link
+    telegram: 
+    #facebook link
+    facebook: 
+    #whatsapp link
+    whatsapp: https://chat.whatsapp.com/J4GrQGnesdKJGyTtvgVrRP
+    #android app store
+    playstore:
+    #ios app store
+    appstore:
+    #slack application
+    slack:
+    #github_account full url
+    github_account: 
+    otherlinks:
+    image: osca_yaounde.jpg
+    #--------------------------------------------------------------
