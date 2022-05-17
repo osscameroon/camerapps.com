@@ -4,7 +4,7 @@ title: "DO NOT EDIT - takes the developer survey"
 labels: "New Feature"
 body:
   - type: input
-    id: category
+    id: title
     attributes:
       label:  Title
       description: What is the title of this app
