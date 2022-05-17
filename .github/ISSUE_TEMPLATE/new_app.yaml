@@ -1,6 +1,7 @@
 name: Fill The Form To Add New App or Link
 description: Take the cameroonian developer survey
 title: "DO NOT EDIT - takes the developer survey"
+labels: "New Feature"
 body:
   - type: input
     id: category
@@ -30,43 +31,43 @@ body:
     attributes:
       label: Dikalo
       description: Please fill in the Dika group URL if it exists
-- type: input
-    id: telegram
+  - type: input
+      id: telegram
+      attributes:
+        label: telegram
+        description: Please fill in the Telegram group URL if it exists
+  - type: input
+      id: facebook
+      attributes:
+        label: facebook
+        description: Please fill in the Facebook group or Page URL if it exists
+  - type: input
+      id: Whatsapp
+      attributes:
+        label: whatsapp
+        description: Please fill in the Whatsapp group link if it exists
+  - type: input
+      id: Appstore
+      attributes:
+        label: appstore
+        description: Please fill in the AppStore URL if it exists
+  - type: input
+      id: Playstore
+      attributes:
+        label: PlayStore
+        description: Please fill in the PlayStore URL if it exists
+  - type: input
+      id: slack
+      attributes:
+        label: Slack
+        description: Please fill in the Slack Channel URL if it exists
+  - type: textarea
+      id: others
+      attributes:
+        label: Others
+        description: Do you have other Urls Not listed? please provide them below
+  - type: image
+    id: image
     attributes:
-      label: telegram
-      description: Please fill in the Telegram group URL if it exists
-- type: input
-    id: facebook
-    attributes:
-      label: facebook
-      description: Please fill in the Facebook group or Page URL if it exists
-- type: input
-    id: Whatsapp
-    attributes:
-      label: whatsapp
-      description: Please fill in the Whatsapp group link if it exists
-- type: input
-    id: Appstore
-    attributes:
-      label: appstore
-      description: Please fill in the AppStore URL if it exists
-- type: input
-    id: Playstore
-    attributes:
-      label: PlayStore
-      description: Please fill in the PlayStore URL if it exists
-- type: input
-    id: slack
-    attributes:
-      label: Slack
-      description: Please fill in the Slack Channel URL if it exists
-- type: textarea
-    id: others
-    attributes:
-      label: Others
-      description: Do you have other Urls Not listed? please provide them below
-- type: image
-  id: image
-  attributes:
-    label: Image
-    description: Upload the Image For your community
+      label: Image
+      description: Upload the Image For your community
