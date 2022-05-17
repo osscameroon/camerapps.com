@@ -1,0 +1,69 @@
+name: Fill The Form To Add New App or Link
+description: camerapps lists useful applications, whatsapp, facebook, telegram groups or channel for Cameroonians.
+title: "DO NOT EDIT - Adds To CamerApps"
+labels: "New Feature"
+body:
+  - type: input
+    id: title
+    attributes:
+      label:  Title
+      description: What is the title of this app
+  - type: dropdown
+    id: category
+    attributes:
+      label:  What category does it fall within?
+      multiple: true
+      options:
+        - Opensource
+        - programming
+        - Developers
+  - type: input
+    id: website
+    attributes:
+      label: URL
+      description: Please fill in the url
+  - type: input
+    id: twitter
+    attributes:
+      label: twitter
+      description: Please fill in the twitter URL if it exists
+  - type: input
+    id: dikalo
+    attributes:
+      label: Dikalo
+      description: Please fill in the Dika group URL if it exists
+  - type: input
+    id: telegram
+    attributes:
+      label: telegram
+      description: Please fill in the Telegram group URL if it exists
+  - type: input
+    id: facebook
+    attributes:
+      label: facebook
+      description: Please fill in the Facebook group or Page URL if it exists
+  - type: input
+    id: Whatsapp
+    attributes:
+      label: whatsapp
+      description: Please fill in the Whatsapp group link if it exists
+  - type: input
+    id: Appstore
+    attributes:
+      label: appstore
+      description: Please fill in the AppStore URL if it exists
+  - type: input
+    id: Playstore
+    attributes:
+      label: PlayStore
+      description: Please fill in the PlayStore URL if it exists
+  - type: input
+    id: slack
+    attributes:
+      label: Slack
+      description: Please fill in the Slack Channel URL if it exists
+  - type: textarea
+    id: others
+    attributes:
+      label: Others
+      description: Do you have other Urls Not listed? please provide them below
