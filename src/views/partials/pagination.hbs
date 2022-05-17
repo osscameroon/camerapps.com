@@ -17,7 +17,7 @@
         <li class="disabled page-item"><a class="page-link">...</a></li>
     {{/if}}
         {{#each (displayPagesNumber interval current pages)}}
-            {{#if (ifEqual current 1 0)}}
+            {{#if (ifEqual current 1)}}
                 <li class="active page-item"><a class="page-link">{{ . }}</a></li>
             {{else}}
                 {{#if @root.hasParams}}

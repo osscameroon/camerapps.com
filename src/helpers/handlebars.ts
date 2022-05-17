@@ -47,5 +47,5 @@ export const portContains = (a: string, b:string): boolean => {
 }
 
 export const not = (a: string): boolean=> {
-  return (!(a));
+  return  !a;
 }
