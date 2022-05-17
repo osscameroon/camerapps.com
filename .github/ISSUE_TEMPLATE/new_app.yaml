@@ -66,8 +66,3 @@ body:
     attributes:
       label: Others
       description: Do you have other Urls Not listed? please provide them below
-  - type: image
-    id: image
-    attributes:
-      label: Image
-      description: Upload the Image For your community
