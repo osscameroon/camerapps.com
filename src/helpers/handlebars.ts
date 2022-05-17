@@ -37,3 +37,15 @@ export const constructUrl = (url: string, param: string): string => {
 export const contains = (a: string, b:string): boolean => {
   return a.includes(b);
 }
+
+export const ifContains = (a: string, b:string): boolean => {
+  return a.slice(-1).includes(b);
+}
+
+export const portContains = (a: string, b:string): boolean => {
+  return a.includes(b);
+}
+
+export const not = (a: string): boolean=> {
+  return  !a;
+}
