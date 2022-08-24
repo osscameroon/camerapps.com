@@ -49,15 +49,13 @@ jobs:
       - run: cat ./src/res/apps.yaml
 
 
-
       - name: Commit changes
         shell: bash
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
           git config --global user.name "github-actions[bot]" && \
           git add ./src/res/apps.yaml && \
-          git commit -m 'new app answer' && \
-          git push
+          git commit -m 'feat(auto): new app submit' && git push
 
 
       - uses: peter-evans/close-issue@v1
