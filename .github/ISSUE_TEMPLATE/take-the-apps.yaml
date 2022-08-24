@@ -1,0 +1,80 @@
+name: Take the app's
+description: Take the cameroonian app's
+title: "DO NOT EDIT - takes the app"
+body:
+  - type: input
+    id: title
+    attributes:
+      label: What is the title of your application ?
+  - type: dropdown
+    id: category
+    attributes:
+      label: What is the category of your application ?
+      options:
+        - community
+        - application
+        - video game
+        - platform
+        - Framework and IDE
+        - service
+        - education
+        - utility
+        - finance
+        - SIG
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: What are your tags ?
+      options:
+        - label: opensource
+        - label: programming 
+        - label: developers 
+  - type: input
+    id: description
+    attributes:
+      label: What is the description of your application ?
+  - type: input
+    id: website
+    attributes:
+      label: What is the website of your application ?
+  - type: input
+    id: twitter
+    attributes:
+      label: What is the twitter group of your application ?
+  - type: input
+    id: dikalo
+    attributes:
+      label: What is the dikalo group of your application ?
+  - type: input
+    id: telegram
+    attributes:
+      label: What is the telegram group of your application ?
+  - type: input
+    id: facebook
+    attributes:
+      label: What is the facebook link of your application ?
+  - type: input
+    id: whatsapp
+    attributes:
+      label: What is the whatsapp link of your application ?
+  - type: input
+    id: playstore
+    attributes:
+      label: What is the android app store of your application ?
+  - type: input
+    id: appstore
+    attributes:
+      label: What is the ios app store of your application ?
+  - type: input
+    id: slack
+    attributes:
+      label: What is the slack of your application ?
+  - type: input
+    id: github_account
+    attributes:
+      label: What is the github account of your application ?
+  - type: input
+    id: otherslinks
+    attributes:
+      label: What is the others link of your application ?
+
