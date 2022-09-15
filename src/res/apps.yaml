@@ -632,7 +632,7 @@ items:
     github_account: https://github.com/GDG-Buea
     otherlinks:
     image: gdgdouala.png
-    #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: OSCA Yaounde
     category: community
     #max of five tags
@@ -663,7 +663,7 @@ items:
     github_account: 
     otherlinks:
     image: osca_yaounde.jpg
-    #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: Cameroon Portfolios
     category: community
     #max of five tags
@@ -677,4 +677,20 @@ items:
     #github_account full url
     github_account: https://github.com/ln-dev7/cameroon-portfolios
     image: cameroon_portfolios.svg
+#--------------------------------------------------------------
+  - title: BFAS 237
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - hacking
+      - freenet
+      - tricks
+      - Electronics
+      - device unlocking
+    description: |
+      Community of talented geeks and nerds. Specialized in Technology, Web Development, Programming, Electronics, Unlocking.
+    website: bfas237blog.club
+    telegram: https://t.me/+Qk8AadgL8PdjoP80
+    image: bfas.jpg
 #--------------------------------------------------------------

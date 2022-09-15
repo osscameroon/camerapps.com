@@ -1,0 +1,64 @@
+name: Process app's entry.
+on:
+  issues:
+    types: [opened]
+concurrency: 'main'
+jobs:
+  take_catalogue:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'DO NOT EDIT') && contains(github.event.issue.title, 'takes the application')
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GA_WORKFLOW_DEPLOYMENTS_TOKEN }}
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - uses: elhmn/github-issue-parser@release-parse-checkbox
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/take-the-apps.yaml
+
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > app_submission.json
+
+      - run: |
+          cat app_submission.json | jq
+
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          cat app_submission.json | yq e '{"items": [.]}' -P - > app_submission.yaml
+      - run: cat app_submission.yaml
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/res/apps.yaml app_submission.yaml
+
+
+      - run: cat app_submission.yaml
+
+      - run: cat ./src/res/apps.yaml
+
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/res/apps.yaml app_submission.yaml
+
+      - run: cat ./src/res/apps.yaml
+
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
+          git config --global user.name "github-actions[bot]" && \
+          git add ./src/res/apps.yaml && \
+          git commit -m 'feat(auto): new app submit' && git push
+
+
+      - uses: peter-evans/close-issue@v1
+        with:
+          comment: Your application answer was submitted and will be deployed in few minutes here https://camerapps.com
+
