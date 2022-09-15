@@ -632,7 +632,7 @@ items:
     github_account: https://github.com/GDG-Buea
     otherlinks:
     image: gdgdouala.png
-    #--------------------------------------------------------------
+#--------------------------------------------------------------
   - title: OSCA Yaounde
     category: community
     #max of five tags
@@ -663,7 +663,21 @@ items:
     github_account: 
     otherlinks:
     image: osca_yaounde.jpg
-    #--------------------------------------------------------------
+#--------------------------------------------------------------
+  - title: Cameroon Portfolios
+    category: community
+    #max of five tags
+    tags:
+      - opensource
+      - portfolios
+      - developers
+    description:
+      Open source collection of Cameroonian portfolios
+    website: https://cameroon-portfolios.vercel.app/
+    #github_account full url
+    github_account: https://github.com/ln-dev7/cameroon-portfolios
+    image: cameroon_portfolios.svg
+#--------------------------------------------------------------
   - title: BFAS 237
     category: community
     #max of five tags
