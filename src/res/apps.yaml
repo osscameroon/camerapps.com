@@ -664,3 +664,19 @@ items:
     otherlinks:
     image: osca_yaounde.jpg
     #--------------------------------------------------------------
+  - title: BFAS 237
+    category: community
+    #max of five tags
+    tags:
+      - programming
+      - hacking
+      - freenet
+      - tricks
+      - Electronics
+      - device unlocking
+    description: |
+      Community of talented geeks and nerds. Specialized in Technology, Web Development, Programming, Electronics, Unlocking.
+    website: bfas237blog.club
+    telegram: https://t.me/+Qk8AadgL8PdjoP80
+    image: bfas.jpg
+#--------------------------------------------------------------
