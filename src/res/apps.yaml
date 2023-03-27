@@ -678,6 +678,40 @@ items:
     github_account: https://github.com/ln-dev7/cameroon-portfolios
     image: cameroon_portfolios.svg
 #--------------------------------------------------------------
+  - title: Sharuco
+    category: application
+    #max of five tags
+    tags:
+      - opensource
+      - gist
+      - developers
+    description:
+      Share your code with everyone.
+    website: https://sharuco.lndev.me/
+    #twitter group handle
+    twitter: https://twitter.com/sharuco_app
+    #github_account full url
+    github_account: https://github.com/ln-dev7/sharuco
+    image: sharuco.png
+#--------------------------------------------------------------
+  - title: LNUI
+    category: Library UI
+    #max of five tags
+    tags:
+      - opensource
+      - developers
+      - ui
+      - components
+      - library
+    description:
+      Create beautiful websites with multiple components.
+    website: https://lnui.lndev.me/
+    #twitter group handle
+    twitter: https://twitter.com/lnuicomponent
+    #github_account full url
+    github_account: https://github.com/ln-dev7/lnui
+    image: lnui.png
+#--------------------------------------------------------------
   - title: BFAS 237
     category: community
     #max of five tags
